@@ -1,0 +1,5 @@
+#include "RebelAIStateTreePropertyFunc_AIStub_GetTargetLocation_InstanceData.h"
+
+FRebelAIStateTreePropertyFunc_AIStub_GetTargetLocation_InstanceData::FRebelAIStateTreePropertyFunc_AIStub_GetTargetLocation_InstanceData() {
+}
+

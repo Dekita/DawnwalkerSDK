@@ -1,0 +1,5 @@
+#include "RebelAIStateTreeTask_GenerateRandomPointInsideArea_InstanceData.h"
+
+FRebelAIStateTreeTask_GenerateRandomPointInsideArea_InstanceData::FRebelAIStateTreeTask_GenerateRandomPointInsideArea_InstanceData() {
+}
+

@@ -1,0 +1,21 @@
+﻿#pragma once
+#include "CoreMinimal.h"
+#include "UObject/NoExportTypes.h"
+#include "Engine/DataTable.h"
+#include "SoftObjectPtrPersistentCacheRow.generated.h"
+
+class AActor;
+
+USTRUCT(BlueprintType)
+struct DOGWOODQUEST_API FSoftObjectPtrPersistentCacheRow : public FTableRowBase {
+    GENERATED_BODY()
+public:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    TSoftObjectPtr<AActor> ActorPtr;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FGuid PersistentActorGuid;
+    
+    FSoftObjectPtrPersistentCacheRow();
+};
+

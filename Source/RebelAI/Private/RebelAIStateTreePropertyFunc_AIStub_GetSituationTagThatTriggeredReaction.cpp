@@ -1,0 +1,5 @@
+#include "RebelAIStateTreePropertyFunc_AIStub_GetSituationTagThatTriggeredReaction.h"
+
+FRebelAIStateTreePropertyFunc_AIStub_GetSituationTagThatTriggeredReaction::FRebelAIStateTreePropertyFunc_AIStub_GetSituationTagThatTriggeredReaction() {
+}
+

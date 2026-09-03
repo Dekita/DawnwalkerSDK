@@ -1,0 +1,5 @@
+#include "RebelAIStateTreePropertyFunc_AIStub_GetClosestEdgePointOnGuardArea.h"
+
+FRebelAIStateTreePropertyFunc_AIStub_GetClosestEdgePointOnGuardArea::FRebelAIStateTreePropertyFunc_AIStub_GetClosestEdgePointOnGuardArea() {
+}
+

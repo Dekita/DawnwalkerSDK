@@ -1,0 +1,15 @@
+﻿#pragma once
+#include "CoreMinimal.h"
+#include "RebelAINPCSoundEvent.h"
+#include "RebelAINPCSoundEventsArray.generated.h"
+
+USTRUCT(BlueprintType)
+struct REBELAI_API FRebelAINPCSoundEventsArray {
+    GENERATED_BODY()
+public:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    TArray<FRebelAINPCSoundEvent> Events;
+    
+    FRebelAINPCSoundEventsArray();
+};
+

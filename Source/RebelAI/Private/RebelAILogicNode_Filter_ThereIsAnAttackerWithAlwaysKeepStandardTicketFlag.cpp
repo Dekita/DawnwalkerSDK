@@ -1,0 +1,5 @@
+#include "RebelAILogicNode_Filter_ThereIsAnAttackerWithAlwaysKeepStandardTicketFlag.h"
+
+FRebelAILogicNode_Filter_ThereIsAnAttackerWithAlwaysKeepStandardTicketFlag::FRebelAILogicNode_Filter_ThereIsAnAttackerWithAlwaysKeepStandardTicketFlag() {
+}
+

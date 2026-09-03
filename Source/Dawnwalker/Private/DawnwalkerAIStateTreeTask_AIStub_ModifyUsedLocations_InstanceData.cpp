@@ -1,0 +1,5 @@
+#include "DawnwalkerAIStateTreeTask_AIStub_ModifyUsedLocations_InstanceData.h"
+
+FDawnwalkerAIStateTreeTask_AIStub_ModifyUsedLocations_InstanceData::FDawnwalkerAIStateTreeTask_AIStub_ModifyUsedLocations_InstanceData() {
+}
+

@@ -1,0 +1,5 @@
+#include "DawnwalkerAIStateTreePropertyFunc_AIStub_GetRestrictedAreaReactionTime.h"
+
+FDawnwalkerAIStateTreePropertyFunc_AIStub_GetRestrictedAreaReactionTime::FDawnwalkerAIStateTreePropertyFunc_AIStub_GetRestrictedAreaReactionTime() {
+}
+
