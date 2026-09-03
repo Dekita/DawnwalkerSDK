@@ -1,1047 +1,1078 @@
-﻿{
-    "FileVersion":  3,
-    "EngineAssociation":  "5.5",
-    "Category":  "",
-    "Description":  "",
-    "Modules":  [
-                    {
-                        "Name":  "AchievementSystem",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "ActivitiesSystem",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "AkAudio",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "AutoRigService",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "ClipboardExtension",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "CopyToClipboard",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "Dawnwalker",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DialogueSystem",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DLSS",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DLSSBlueprint",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DNAInterchange",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodAbilitySystem",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodAchievements",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodAI",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodAICore",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodAnim",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodAudio",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodCharacterDevelopment",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodCombat",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodDebug",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodDialogue",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodFocus",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodGlossary",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodInventory",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodMap",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodNanitePrefetch",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodPGOCollector",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodQuest",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodStats",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodSystem",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodUI",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodUtil",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodVampireHunger",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "DogwoodWorld",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "ErrantBiomesPCG",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "ErrantBiomesRuntime",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "ErrantInstanceInteraction",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "FactsDB",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "FFXFSR4Settings",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "Flow",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "GamepadLightbarSystem",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "GamepadVibration",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "HoudiniEngineRuntime",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "JALI",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "KiBLII",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "KiBLIICommonUI",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "LiveLinkMvnPlugin",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "MetaHumanConfig",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "MetaHumanCore",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "MetaHumanFaceAnimationSolver",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "MetaHumanFaceContourTracker",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "MetaHumanFaceFittingSolver",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "MetaHumanIdentity",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "MetaHumanMeshTracker",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "MetaHumanPipeline",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "NetImgui",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "NodeRuntime",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "Persistency",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "Population",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "Quest",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelAI",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelAudio",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelBypassing",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelCamera",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelDebugService",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelEvaluators",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelFoliage",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelFormation",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelFramegenInitModule",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelGenericTreeModule",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelGrid",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelHLTreeModule",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelHorse",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelInput",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelInputDisplay",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelLoading",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelLocomotion",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelNavigation",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelRoads",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelRoadsUnifiedNavigation",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelSettings",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelSpatialSystem",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelTableRow",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelToast",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RebelUtils",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "RuntimeCurvesUtilities",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "ScreenSpaceFogScattering",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "SimplygonUObjects",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "SkinnedDecalComponent",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "SkyCreatorPlugin",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "SPCRJointDynamics",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "StandinActor",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "StreamlineBlueprint",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "StreamlineDLSSGBlueprint",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "StreamlineReflexBlueprint",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "StreamlineRHI",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "WwiseAudioLinkRuntime",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "WwiseExtensions",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "WwiseFileHandler",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "WwiseNiagara",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "WwiseObjectUtils",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "WwisePackaging",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "WwisePackagingRuntime",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "WwiseResourceLoader",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "WwiseSimpleExternalSource",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "XeFGBlueprint",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "XeLLBlueprint",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "XeSSBlueprint",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    },
-                    {
-                        "Name":  "XeSSCore",
-                        "Type":  "Runtime",
-                        "LoadingPhase":  "Default"
-                    }
-                ],
-    "Plugins":  [
-                    {
-                        "Name":  "ACLPlugin",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "ActorLayerUtilities",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "ActorSequence",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "AnalyticsBlueprintLibrary",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "AndroidFileServer",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "AndroidPermission",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "AnimationBudgetAllocator",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "AnimationLocomotionLibrary",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "AnimationSharing",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "AnimationWarping",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "AnimToTexture",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "AppleARKit",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "AppleARKitFaceSupport",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "AppleImageUtils",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "AppleProResMedia",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "ArchVisCharacter",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "ARUtilities",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "AssetTags",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "AudioCapture",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "AudioSynesthesia",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "AudioWidgets",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "AutomationUtils",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "AvfMedia",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "BinkMedia",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "CableComponent",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "CameraCalibrationCore",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "CaptureData",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "ChaosCaching",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "ChaosCloth",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "ChaosClothAsset",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "ChaosNiagara",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "ChaosVD",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "CommonUI",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "ComputeFramework",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "ConsoleVariables",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "ControlRig",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "ControlRigSpline",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "CustomMeshComponent",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "Dataflow",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "DataRegistry",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "DatasmithContent",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "DeformerGraph",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "EngineCameras",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "EnhancedInput",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "FacialAnimation",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "Fracture",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "FullBodyIK",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "GameplayAbilities",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "GameplayBehaviors",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "GameplayBehaviorSmartObjects",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "GameplayCameras",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "GameplayStateTree",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "GeometryCache",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "GeometryCollectionPlugin",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "GeometryScripting",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "GLTFExporter",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "GooglePAD",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "HairStrands",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "HoldoutComposite",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "IKRig",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "ImagePlate",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "ImgMedia",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "Interchange",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "Landmass",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "LandscapePatch",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "LensComponent",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "LiveLink",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "LiveLinkCamera",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "LiveLinkControlRig",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "LocalizableMessage",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "LocationServicesBPLibrary",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "MediaCompositing",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "MediaIOFramework",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "MediaPlate",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "MeshModelingToolset",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "MeshModelingToolsetExp",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "MetaHumanSDK",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "Metasound",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "MobilePatchingUtils",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "MotionWarping",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "MovieRenderPipeline",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "Niagara",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "NiagaraSimCaching",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "NNEDenoiser",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "NNERuntimeORT",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "OnlineFramework",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "OnlineSubsystem",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "OnlineSubsystemSteam",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "OnlineSubsystemUtils",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "OodleNetwork",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "OpenColorIO",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "Paper2D",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "PCG",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "ProceduralMeshComponent",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "PropertyBindingUtils",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "ResonanceAudio",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "RigLogic",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "RigVM",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "SequencerScripting",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "SignificanceManager",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "SkeletalMerging",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "SmartObjects",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "SoundFields",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "StateTree",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "SunPosition",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "Synthesis",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "Takes",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "TargetingSystem",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "TcpMessaging",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "TemplateSequence",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "TextToSpeech",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "TraceUtilities",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "UdpMessaging",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "UObjectPlugin",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "USDCore",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "USDImporter",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "VariantManagerContent",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "VirtualHeightfieldMesh",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "WaveTable",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "WmfMedia",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "WorldConditions",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "WorldMetrics",
-                        "Enabled":  true
-                    },
-                    {
-                        "Name":  "XRBase",
-                        "Enabled":  true
-                    }
-                ]
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.5",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "AchievementSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "ActivitiesSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "AkAudio",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "AutoRigService",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "ClipboardExtension",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "CopyToClipboard",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "Dawnwalker",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DialogueSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DLSS",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DLSSBlueprint",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DNAInterchange",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodAbilitySystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodAchievements",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodAI",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodAICore",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodAnim",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodAudio",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodCharacterDevelopment",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodCombat",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodDebug",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodDialogue",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodFocus",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodGlossary",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodInventory",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodMap",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodNanitePrefetch",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodPGOCollector",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodQuest",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodStats",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodUI",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodUtil",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodVampireHunger",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DogwoodWorld",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "ErrantBiomesPCG",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "ErrantBiomesRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "ErrantInstanceInteraction",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "FactsDB",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "FFXFSR4Settings",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "Flow",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "GamepadLightbarSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "GamepadVibration",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "HoudiniEngineRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "JALI",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "KiBLII",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "KiBLIICommonUI",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "LiveLinkMvnPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "MetaHumanConfig",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "MetaHumanCore",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "MetaHumanFaceAnimationSolver",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "MetaHumanFaceContourTracker",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "MetaHumanFaceFittingSolver",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "MetaHumanIdentity",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "MetaHumanMeshTracker",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "MetaHumanPipeline",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "NetImgui",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "NodeRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "Persistency",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "Population",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "Quest",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelAI",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelAudio",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelBypassing",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelCamera",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelDebugService",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelEvaluators",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelFoliage",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelFormation",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelFramegenInitModule",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelGenericTreeModule",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelGrid",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelHLTreeModule",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelHorse",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelInput",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelInputDisplay",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelLoading",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelLocomotion",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelNavigation",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelRoads",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelRoadsUnifiedNavigation",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelSettings",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelSpatialSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelTableRow",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelToast",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RebelUtils",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RuntimeCurvesUtilities",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "ScreenSpaceFogScattering",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "SimplygonUObjects",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "SkinnedDecalComponent",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "SkyCreatorPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "SPCRJointDynamics",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "StandinActor",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "StreamlineBlueprint",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "StreamlineDLSSGBlueprint",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "StreamlineReflexBlueprint",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "StreamlineRHI",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "WwiseAudioLinkRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "WwiseExtensions",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "WwiseFileHandler",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "WwiseNiagara",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "WwiseObjectUtils",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "WwisePackaging",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "WwisePackagingRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "WwiseResourceLoader",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "WwiseSimpleExternalSource",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "XeFGBlueprint",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "XeLLBlueprint",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "XeSSBlueprint",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "XeSSCore",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ACLPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "ActorLayerUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "ActorSequence",
+			"Enabled": true
+		},
+		{
+			"Name": "AnalyticsBlueprintLibrary",
+			"Enabled": true
+		},
+		{
+			"Name": "AndroidFileServer",
+			"Enabled": true
+		},
+		{
+			"Name": "AndroidPermission",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimationBudgetAllocator",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimationLocomotionLibrary",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimationSharing",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimationWarping",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimToTexture",
+			"Enabled": true
+		},
+		{
+			"Name": "AppleARKit",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"IOS",
+				"Win64",
+				"Mac",
+				"Linux",
+				"Android"
+			]
+		},
+		{
+			"Name": "AppleARKitFaceSupport",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"IOS",
+				"Win64",
+				"Mac",
+				"Linux",
+				"Android"
+			]
+		},
+		{
+			"Name": "AppleImageUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "AppleProResMedia",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "ArchVisCharacter",
+			"Enabled": true
+		},
+		{
+			"Name": "ARUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "AssetTags",
+			"Enabled": true
+		},
+		{
+			"Name": "AudioCapture",
+			"Enabled": true
+		},
+		{
+			"Name": "AudioSynesthesia",
+			"Enabled": true
+		},
+		{
+			"Name": "AudioWidgets",
+			"Enabled": true
+		},
+		{
+			"Name": "AutomationUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "AvfMedia",
+			"Enabled": true
+		},
+		{
+			"Name": "BinkMedia",
+			"Enabled": true
+		},
+		{
+			"Name": "CableComponent",
+			"Enabled": true
+		},
+		{
+			"Name": "CameraCalibrationCore",
+			"Enabled": true
+		},
+		{
+			"Name": "CaptureData",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosCaching",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosCloth",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosClothAsset",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosNiagara",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosVD",
+			"Enabled": true
+		},
+		{
+			"Name": "CommonUI",
+			"Enabled": true
+		},
+		{
+			"Name": "ComputeFramework",
+			"Enabled": true
+		},
+		{
+			"Name": "ConsoleVariables",
+			"Enabled": true
+		},
+		{
+			"Name": "ControlRig",
+			"Enabled": true
+		},
+		{
+			"Name": "ControlRigSpline",
+			"Enabled": true
+		},
+		{
+			"Name": "CustomMeshComponent",
+			"Enabled": true
+		},
+		{
+			"Name": "Dataflow",
+			"Enabled": true
+		},
+		{
+			"Name": "DataRegistry",
+			"Enabled": true
+		},
+		{
+			"Name": "DatasmithContent",
+			"Enabled": true
+		},
+		{
+			"Name": "DeformerGraph",
+			"Enabled": true
+		},
+		{
+			"Name": "EngineCameras",
+			"Enabled": true
+		},
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		},
+		{
+			"Name": "FacialAnimation",
+			"Enabled": true
+		},
+		{
+			"Name": "Fracture",
+			"Enabled": true
+		},
+		{
+			"Name": "FullBodyIK",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayBehaviors",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayBehaviorSmartObjects",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayCameras",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayStateTree",
+			"Enabled": true
+		},
+		{
+			"Name": "GeometryCache",
+			"Enabled": true
+		},
+		{
+			"Name": "GeometryCollectionPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "GeometryScripting",
+			"Enabled": true
+		},
+		{
+			"Name": "GLTFExporter",
+			"Enabled": true
+		},
+		{
+			"Name": "GooglePAD",
+			"Enabled": true
+		},
+		{
+			"Name": "HairStrands",
+			"Enabled": true
+		},
+		{
+			"Name": "HoldoutComposite",
+			"Enabled": true
+		},
+		{
+			"Name": "IKRig",
+			"Enabled": true
+		},
+		{
+			"Name": "ImagePlate",
+			"Enabled": true
+		},
+		{
+			"Name": "ImgMedia",
+			"Enabled": true
+		},
+		{
+			"Name": "Interchange",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Mac"
+			]
+		},
+		{
+			"Name": "Landmass",
+			"Enabled": true
+		},
+		{
+			"Name": "LandscapePatch",
+			"Enabled": true
+		},
+		{
+			"Name": "LensComponent",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLink",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLinkCamera",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLinkControlRig",
+			"Enabled": true
+		},
+		{
+			"Name": "LocalizableMessage",
+			"Enabled": true
+		},
+		{
+			"Name": "LocationServicesBPLibrary",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaCompositing",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaIOFramework",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaPlate",
+			"Enabled": true
+		},
+		{
+			"Name": "MeshModelingToolset",
+			"Enabled": true
+		},
+		{
+			"Name": "MeshModelingToolsetExp",
+			"Enabled": true
+		},
+		{
+			"Name": "MetaHumanSDK",
+			"Enabled": true
+		},
+		{
+			"Name": "Metasound",
+			"Enabled": true
+		},
+		{
+			"Name": "MobilePatchingUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "MotionWarping",
+			"Enabled": true
+		},
+		{
+			"Name": "MovieRenderPipeline",
+			"Enabled": true
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "NiagaraSimCaching",
+			"Enabled": true
+		},
+		{
+			"Name": "NNEDenoiser",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Mac"
+			]
+		},
+		{
+			"Name": "NNERuntimeORT",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineFramework",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "OodleNetwork",
+			"Enabled": true
+		},
+		{
+			"Name": "OpenColorIO",
+			"Enabled": true
+		},
+		{
+			"Name": "Paper2D",
+			"Enabled": true
+		},
+		{
+			"Name": "PCG",
+			"Enabled": true
+		},
+		{
+			"Name": "ProceduralMeshComponent",
+			"Enabled": true
+		},
+		{
+			"Name": "PropertyBindingUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "ResonanceAudio",
+			"Enabled": true
+		},
+		{
+			"Name": "RigLogic",
+			"Enabled": true
+		},
+		{
+			"Name": "RigVM",
+			"Enabled": true
+		},
+		{
+			"Name": "SequencerScripting",
+			"Enabled": true
+		},
+		{
+			"Name": "SignificanceManager",
+			"Enabled": true
+		},
+		{
+			"Name": "SkeletalMerging",
+			"Enabled": true
+		},
+		{
+			"Name": "SmartObjects",
+			"Enabled": true
+		},
+		{
+			"Name": "SoundFields",
+			"Enabled": true
+		},
+		{
+			"Name": "StateTree",
+			"Enabled": true
+		},
+		{
+			"Name": "SunPosition",
+			"Enabled": true
+		},
+		{
+			"Name": "Synthesis",
+			"Enabled": true
+		},
+		{
+			"Name": "Takes",
+			"Enabled": true
+		},
+		{
+			"Name": "TargetingSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "TcpMessaging",
+			"Enabled": true
+		},
+		{
+			"Name": "TemplateSequence",
+			"Enabled": true
+		},
+		{
+			"Name": "TextToSpeech",
+			"Enabled": true
+		},
+		{
+			"Name": "TraceUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "UdpMessaging",
+			"Enabled": true
+		},
+		{
+			"Name": "UObjectPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "USDCore",
+			"Enabled": true
+		},
+		{
+			"Name": "USDImporter",
+			"Enabled": true
+		},
+		{
+			"Name": "VariantManagerContent",
+			"Enabled": true
+		},
+		{
+			"Name": "VirtualHeightfieldMesh",
+			"Enabled": true
+		},
+		{
+			"Name": "WaveTable",
+			"Enabled": true
+		},
+		{
+			"Name": "WmfMedia",
+			"Enabled": true
+		},
+		{
+			"Name": "WorldConditions",
+			"Enabled": true
+		},
+		{
+			"Name": "WorldMetrics",
+			"Enabled": true
+		},
+		{
+			"Name": "XRBase",
+			"Enabled": true
+		},
+		{
+			"Name": "NexusModsAuthorTools",
+			"Enabled": true
+		}
+	]
 }
