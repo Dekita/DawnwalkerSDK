@@ -30,8 +30,14 @@ Saved/
 *.obj
 
 # --- Content is not part of this SDK: the generator reconstructs code
-#     (Source/) only, not assets. Keep the repo focused on that. ---
-Content/
+#     (Source/) only, not assets. Keep the repo focused on that, except for
+#     a small hand-authored example mod showing the SDK actually resolves
+#     classes correctly in-editor (Content/Mods/ExampleUI - a Blueprint
+#     widget + actor, not extracted from the game). ---
+Content/*
+!Content/Mods/
+Content/Mods/*
+!Content/Mods/ExampleUI/
 
 # --- Locally-installed tooling that isn't part of the reconstructed SDK
 #     itself (not referenced anywhere in Dawnwalker.uproject) ---

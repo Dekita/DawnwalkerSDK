@@ -27,6 +27,12 @@ Two ways to use it, depending on what you're doing:
    Dawnwalker class available immediately — put your own mod content
    (Blueprints, new C++ modules, assets) directly in here.
 
+`Content/Mods/ExampleUI/` is a small hand-authored example (a Blueprint
+widget + actor pair) showing that the SDK's classes resolve and work
+correctly from Blueprints in-editor — use it as a starting point for your
+own mod content folder. It's the only asset content tracked in this repo;
+everything else under `Content/` is ignored (see Notes below).
+
 ## Notes
 
 - `Source/` modules that match real engine plugins (GameplayAbilities, PCG,
