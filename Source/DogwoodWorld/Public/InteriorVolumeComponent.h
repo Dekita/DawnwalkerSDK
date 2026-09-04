@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "Engine/HitResult.h"
 #include "Interfaces/Interface_PostProcessVolume.h"
@@ -11,8 +11,8 @@ class UInteriorVolumeConfig;
 class UPrimitiveComponent;
 class UShapeComponent;
 
-UCLASS(Blueprintable, CollapseCategories, Deprecated, EditInlineNew, NotPlaceable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class DOGWOODWORLD_API UDEPRECATED_InteriorVolumeComponent : public USceneComponent, public IInterface_PostProcessVolume {
+UCLASS(Blueprintable, CollapseCategories, Deprecated, EditInlineNew, MinimalAPI, NotPlaceable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
+class UDEPRECATED_InteriorVolumeComponent : public USceneComponent, public IInterface_PostProcessVolume {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -55,19 +55,11 @@ protected:
     
     UFUNCTION(BlueprintCallable)
     void ApplyPostProcessSettings();
+    
 
-protected:
-    // IInterface_PostProcessVolume: real implementation unknown; approximated from this class's own equivalent members.
+    // Fix for true pure virtual functions not being implemented
     virtual bool EncompassesPoint(FVector Point, float SphereRadius, float* OutDistanceToPoint) override { return false; }
-    virtual FPostProcessVolumeProperties GetProperties() const override {
-        FPostProcessVolumeProperties Result{};
-        Result.Priority = Priority;
-        Result.BlendRadius = BlendRadius;
-        Result.BlendWeight = BlendWeight;
-        Result.bIsEnabled = bEnabled;
-        Result.bIsUnbound = false;
-        return Result;
-    }
-    virtual FString GetDebugName() const override { return GetName(); }
+    virtual FPostProcessVolumeProperties GetProperties() const override { return FPostProcessVolumeProperties{}; }
+    virtual FString GetDebugName() const override { return TEXT("InteriorVolumeComponent"); }
 };
 

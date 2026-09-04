@@ -20,9 +20,6 @@ public:
     float MinimumMaskValueToTrigger3dEmitters;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TMap<UBiomesMaskAsset*, FMaskEvents> MasksToPossible3dEvents;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<FMaskEvent> DefaultMask3dEvents;
     
     F3dEmittersOnCharacterRingData();

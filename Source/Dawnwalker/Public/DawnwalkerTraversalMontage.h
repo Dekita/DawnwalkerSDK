@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "StructUtils/InstancedStruct.h"
 #include "DawnwalkerTraversalCondition.h"
@@ -7,7 +7,7 @@
 class UAnimMontage;
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FDawnwalkerTraversalMontage : public FDawnwalkerTraversalCondition {
+struct FDawnwalkerTraversalMontage : public FDawnwalkerTraversalCondition {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -19,6 +19,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<FInstancedStruct> ExtraData;
     
-    FDawnwalkerTraversalMontage();
+    DAWNWALKER_API FDawnwalkerTraversalMontage();
 };
 

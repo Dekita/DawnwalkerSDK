@@ -1,9 +1,9 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "DogwoodRPGDifficulty.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODSTATS_API FDogwoodRPGDifficulty {
+struct FDogwoodRPGDifficulty {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -15,6 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float PlayerCombatStaminaCostsMultiplier;
     
-    FDogwoodRPGDifficulty();
+    DOGWOODSTATS_API FDogwoodRPGDifficulty();
 };
 

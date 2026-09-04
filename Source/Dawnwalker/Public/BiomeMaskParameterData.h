@@ -9,9 +9,6 @@ struct DAWNWALKER_API FBiomeMaskParameterData {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    UAkRtpc* RTPC;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool AffectGlobal;
     
     FBiomeMaskParameterData();

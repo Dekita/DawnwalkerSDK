@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "Engine/Scene.h"
 #include "ECameraType.h"
@@ -10,7 +10,7 @@
 class AActor;
 
 USTRUCT(BlueprintType)
-struct DOGWOODWORLD_API FInteriorVolumeData {
+struct FInteriorVolumeData {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -37,6 +37,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FSkyCreatorInteriorFogSettings InteriorFogSettings;
     
-    FInteriorVolumeData();
+    DOGWOODWORLD_API FInteriorVolumeData();
 };
 

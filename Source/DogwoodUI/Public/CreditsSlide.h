@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "ERebelSKURegion.h"
 #include "CreditsEntry.h"
@@ -8,7 +8,7 @@ class USlateBrushAsset;
 class UTexture2D;
 
 USTRUCT(BlueprintType)
-struct DOGWOODUI_API FCreditsSlide {
+struct FCreditsSlide {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -23,6 +23,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<FCreditsEntry> Entries;
     
-    FCreditsSlide();
+    DOGWOODUI_API FCreditsSlide();
 };
 

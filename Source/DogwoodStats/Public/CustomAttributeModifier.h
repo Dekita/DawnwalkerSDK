@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "GameplayAttribute.h"
 #include "CustomAttributeModifier.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODSTATS_API FCustomAttributeModifier {
+struct FCustomAttributeModifier {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -13,6 +13,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float Modifier;
     
-    FCustomAttributeModifier();
+    DOGWOODSTATS_API FCustomAttributeModifier();
 };
 

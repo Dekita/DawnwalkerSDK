@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "EFocusAttackSequenceType.h"
 #include "FocusCreatureMontagePair.h"
@@ -10,7 +10,7 @@ class UAnimMontage;
 class UObject;
 
 USTRUCT(BlueprintType)
-struct DOGWOODFOCUS_API FPlayFocusAbilityMontageParameters {
+struct FPlayFocusAbilityMontageParameters {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
@@ -52,6 +52,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     bool bFinished;
     
-    FPlayFocusAbilityMontageParameters();
+    DOGWOODFOCUS_API FPlayFocusAbilityMontageParameters();
 };
 

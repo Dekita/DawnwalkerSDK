@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "AudioAnimalInterface.generated.h"
 
 UINTERFACE()
-class DAWNWALKER_API UAudioAnimalInterface : public UInterface {
+class UAudioAnimalInterface : public UInterface {
     GENERATED_BODY()
 };
 

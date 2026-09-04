@@ -1,9 +1,9 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "AdditionalEffectModifiersUIInfo.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODFOCUS_API FAdditionalEffectModifiersUIInfo {
+struct FAdditionalEffectModifiersUIInfo {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -15,6 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FText EffectNotAppliesDescription;
     
-    FAdditionalEffectModifiersUIInfo();
+    DOGWOODFOCUS_API FAdditionalEffectModifiersUIInfo();
 };
 

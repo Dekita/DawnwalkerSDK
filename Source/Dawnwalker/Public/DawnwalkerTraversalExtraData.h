@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "DawnwalkerTraversalExtraData.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FDawnwalkerTraversalExtraData {
+struct FDawnwalkerTraversalExtraData {
     GENERATED_BODY()
 public:
-    FDawnwalkerTraversalExtraData();
+    DAWNWALKER_API FDawnwalkerTraversalExtraData();
 };
 

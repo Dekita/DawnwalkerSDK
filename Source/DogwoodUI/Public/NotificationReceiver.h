@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "NotificationReceiver.generated.h"
@@ -6,7 +6,7 @@
 class UNotificationInfo;
 
 UINTERFACE(Blueprintable)
-class DOGWOODUI_API UNotificationReceiver : public UInterface {
+class UNotificationReceiver : public UInterface {
     GENERATED_BODY()
 };
 

@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "UObject/NoExportTypes.h"
 #include "FocusModeInterface.generated.h"
 
-UINTERFACE(BlueprintType, meta=(CannotImplementInterfaceInBlueprint))
-class DOGWOODWORLD_API UFocusModeInterface : public UInterface {
+UINTERFACE(BlueprintType, MinimalAPI, meta=(CannotImplementInterfaceInBlueprint))
+class UFocusModeInterface : public UInterface {
     GENERATED_BODY()
 };
 

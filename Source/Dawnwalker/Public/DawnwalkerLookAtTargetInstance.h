@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "StructUtils/InstancedStruct.h"
 #include "DawnwalkerLookAtTargetInstance.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FDawnwalkerLookAtTargetInstance {
+struct FDawnwalkerLookAtTargetInstance {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -16,6 +16,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FInstancedStruct LookAtTarget;
     
-    FDawnwalkerLookAtTargetInstance();
+    DAWNWALKER_API FDawnwalkerLookAtTargetInstance();
 };
 

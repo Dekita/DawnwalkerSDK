@@ -1,0 +1,71 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "RebelSettings",
+	"Description": "Plugin contains core logic needed for handling settings for all platforms.",
+	"Category": "Other",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "RebelFramegenInitModule",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"AdditionalDependencies": [
+				"StreamlineDLSSG"
+			]
+		},
+		{
+			"Name": "RebelSettings",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"RebelUtils"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "RebelUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		},
+		{
+			"Name": "CommonUI",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelPSOUsageMask",
+			"Enabled": true
+		},
+		{
+			"Name": "DLSS",
+			"Enabled": true,
+			"Optional": true,
+			"PlatformAllowList": [
+				"Win64",
+				"WinGDK"
+			]
+		},
+		{
+			"Name": "StreamlineDLSSG",
+			"Enabled": true,
+			"Optional": true,
+			"PlatformAllowList": [
+				"Win64",
+				"WinGDK"
+			]
+		}
+	]
+}

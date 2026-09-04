@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "DashMontageData.generated.h"
 
@@ -6,7 +6,7 @@ class UAnimMontage;
 class UCurveFloat;
 
 USTRUCT(BlueprintType)
-struct DOGWOODCOMBAT_API FDashMontageData {
+struct FDashMontageData {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -21,6 +21,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 DashFrameEnd;
     
-    FDashMontageData();
+    DOGWOODCOMBAT_API FDashMontageData();
 };
 

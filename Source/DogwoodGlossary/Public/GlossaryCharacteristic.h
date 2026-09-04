@@ -1,9 +1,9 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "GlossaryCharacteristic.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODGLOSSARY_API FGlossaryCharacteristic {
+struct FGlossaryCharacteristic {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FText Value;
     
-    FGlossaryCharacteristic();
+    DOGWOODGLOSSARY_API FGlossaryCharacteristic();
 };
 

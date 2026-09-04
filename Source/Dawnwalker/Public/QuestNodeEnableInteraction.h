@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "ActorReference.h"
 #include "QuestNodeActionBase.h"
 #include "QuestNodeEnableInteraction.generated.h"
 
 UCLASS(Blueprintable)
-class DAWNWALKER_API UQuestNodeEnableInteraction : public UQuestNodeActionBase {
+class UQuestNodeEnableInteraction : public UQuestNodeActionBase {
     GENERATED_BODY()
 public:
 private:

@@ -4,7 +4,6 @@ UAudioSystemImpl::UAudioSystemImpl() {
     this->SoundActor = NULL;
     this->MusicComponent = NULL;
     this->AmbientComponent = NULL;
-    this->LastDevelopmentVideoEvent = NULL;
 }
 
 void UAudioSystemImpl::ToggleAudioCharacterDebug() {

@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "ERebelGeomProcessorType.h"
 #include "DWTraversalSecondaryMontageInstance.generated.h"
@@ -6,7 +6,7 @@
 class UAnimMontage;
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FDWTraversalSecondaryMontageInstance {
+struct FDWTraversalSecondaryMontageInstance {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -15,6 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UAnimMontage* Montage;
     
-    FDWTraversalSecondaryMontageInstance();
+    DAWNWALKER_API FDWTraversalSecondaryMontageInstance();
 };
 

@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "ECombatFocusTargetingType.h"
 #include "FocusAbilityGameplayEffect.h"
 #include "FocusAbilityLevelDefinition.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODFOCUS_API FFocusAbilityLevelDefinition {
+struct FFocusAbilityLevelDefinition {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -32,6 +32,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float AoERadius;
     
-    FFocusAbilityLevelDefinition();
+    DOGWOODFOCUS_API FFocusAbilityLevelDefinition();
 };
 

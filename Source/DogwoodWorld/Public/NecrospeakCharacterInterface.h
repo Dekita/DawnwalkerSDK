@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "NecrospeakCharacterInterface.generated.h"
 
 UINTERFACE()
-class DOGWOODWORLD_API UNecrospeakCharacterInterface : public UInterface {
+class UNecrospeakCharacterInterface : public UInterface {
     GENERATED_BODY()
 };
 

@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "CustomAttributeModifier.h"
@@ -8,7 +8,7 @@
 class UInventoryComponent;
 
 UINTERFACE(BlueprintType, meta=(CannotImplementInterfaceInBlueprint))
-class DOGWOODINVENTORY_API UCustomItemStatProvider : public UInterface {
+class UCustomItemStatProvider : public UInterface {
     GENERATED_BODY()
 };
 

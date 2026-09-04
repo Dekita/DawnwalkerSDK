@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "EAttackStrength.h"
 #include "EClothingSoundType.h"
@@ -9,7 +9,7 @@
 class AActor;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class DAWNWALKER_API UAudioPlayerCombatComponent : public UAudioCharacterCombatComponentBase {
+class UAudioPlayerCombatComponent : public UAudioCharacterCombatComponentBase {
     GENERATED_BODY()
 public:
     UAudioPlayerCombatComponent(const FObjectInitializer& ObjectInitializer);

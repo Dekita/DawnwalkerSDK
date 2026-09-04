@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "Subsystems/WorldSubsystem.h"
 #include "DawnwalkerDialogueSubsystem.generated.h"
@@ -9,7 +9,7 @@ class UCinematicDialogue;
 class UCinematicSubsystem;
 
 UCLASS(Blueprintable)
-class DAWNWALKER_API UDawnwalkerDialogueSubsystem : public UWorldSubsystem {
+class UDawnwalkerDialogueSubsystem : public UWorldSubsystem {
     GENERATED_BODY()
 public:
 protected:

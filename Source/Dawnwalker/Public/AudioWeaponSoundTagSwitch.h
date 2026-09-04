@@ -12,9 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FGameplayTag WeaponSoundTag;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TSoftObjectPtr<UAkSwitchValue> SWITCH;
-    
     FAudioWeaponSoundTagSwitch();
 };
 

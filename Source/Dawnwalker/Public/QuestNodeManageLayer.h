@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "WorldPartition/DataLayer/ActorDataLayer.h"
 #include "WorldPartition/DataLayer/DataLayerInstance.h"
@@ -6,7 +6,7 @@
 #include "QuestNodeManageLayer.generated.h"
 
 UCLASS(Blueprintable)
-class DAWNWALKER_API UQuestNodeManageLayer : public UQuestNode {
+class UQuestNodeManageLayer : public UQuestNode {
     GENERATED_BODY()
 public:
 private:

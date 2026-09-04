@@ -23,8 +23,6 @@ UDWCharacterShadowstepComponent::UDWCharacterShadowstepComponent(const FObjectIn
     this->MovementCurve = NULL;
     this->AttackAction = NULL;
     this->CounterAction = NULL;
-    this->StartSoundEvent = NULL;
-    this->StopSoundEvent = NULL;
     this->EffectAfterTeleportTransition = NULL;
     this->TransitionMontage = NULL;
 }

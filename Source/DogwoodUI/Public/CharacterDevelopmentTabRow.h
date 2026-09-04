@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "ECharacterDevelopmentMode.h"
 #include "Engine/DataTable.h"
@@ -8,7 +8,7 @@
 class UPaperSprite;
 
 USTRUCT(BlueprintType)
-struct DOGWOODUI_API FCharacterDevelopmentTabRow : public FTableRowBase {
+struct FCharacterDevelopmentTabRow : public FTableRowBase {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -23,6 +23,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     ECharacterDevelopmentMode DevelopmentMode;
     
-    FCharacterDevelopmentTabRow();
+    DOGWOODUI_API FCharacterDevelopmentTabRow();
 };
 

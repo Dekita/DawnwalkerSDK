@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "DogwoodPassage.h"
@@ -109,7 +109,7 @@ public:
     UQuestComponent* QuestComponent;
     
 protected:
-    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TWeakObjectPtr<AActor> ActorWhoOpenedDoor;
     
     UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))

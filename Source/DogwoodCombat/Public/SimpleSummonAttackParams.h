@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "SimpleSummonAttackParams.generated.h"
 
@@ -6,7 +6,7 @@ class AActor;
 class UAnimMontage;
 
 USTRUCT(BlueprintType)
-struct DOGWOODCOMBAT_API FSimpleSummonAttackParams {
+struct FSimpleSummonAttackParams {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -21,6 +21,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     AActor* Instigator;
     
-    FSimpleSummonAttackParams();
+    DOGWOODCOMBAT_API FSimpleSummonAttackParams();
 };
 

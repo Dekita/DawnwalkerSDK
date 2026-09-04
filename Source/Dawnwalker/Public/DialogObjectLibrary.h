@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "GameplayTagContainer.h"
@@ -8,7 +8,7 @@
 class UObject;
 
 UCLASS(Blueprintable)
-class DAWNWALKER_API UDialogObjectLibrary : public UBlueprintFunctionLibrary {
+class UDialogObjectLibrary : public UBlueprintFunctionLibrary {
     GENERATED_BODY()
 public:
     UDialogObjectLibrary();

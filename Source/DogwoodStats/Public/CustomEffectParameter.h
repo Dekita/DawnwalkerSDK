@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "CustomEffectParameter.generated.h"
@@ -6,7 +6,7 @@
 class UGameplayEffect;
 
 USTRUCT(BlueprintType)
-struct DOGWOODSTATS_API FCustomEffectParameter {
+struct FCustomEffectParameter {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -15,6 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float Value;
     
-    FCustomEffectParameter();
+    DOGWOODSTATS_API FCustomEffectParameter();
 };
 

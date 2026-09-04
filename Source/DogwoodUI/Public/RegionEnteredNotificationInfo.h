@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "RegionData.h"
 #include "NotificationInfo.h"
 #include "RegionEnteredNotificationInfo.generated.h"
 
 UCLASS(Blueprintable)
-class DOGWOODUI_API URegionEnteredNotificationInfo : public UNotificationInfo {
+class URegionEnteredNotificationInfo : public UNotificationInfo {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

@@ -31,12 +31,6 @@ public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSoftObjectPtr<UAudioAmbientMasksDataAsset> AmbientMasksDataAsset;
     
-    UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TSoftObjectPtr<UAkAudioEvent> DefaultUnpauseStateEvent;
-    
-    UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TMap<EAudioFadeState, TSoftObjectPtr<UAkAudioEvent>> AudioFadeEvents;
-    
     UDawnwalkerAudioSettings();
 
     UFUNCTION(BlueprintCallable, BlueprintPure)

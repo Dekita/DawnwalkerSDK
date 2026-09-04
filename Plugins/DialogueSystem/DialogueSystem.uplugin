@@ -1,0 +1,96 @@
+{
+	"FileVersion": 3,
+	"Version": 0,
+	"VersionName": "1.5",
+	"FriendlyName": "DialogueSystem",
+	"Description": "",
+	"Category": "Gameplay",
+	"CreatedBy": "Fool's Theory",
+	"CreatedByURL": "https://www.foolstheory.com/",
+	"DocsURL": "https://github.com/Fool-s-Theory-contractors/DialogueSystem/wiki",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "DialogueSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "Flow",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayTagsEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "LevelSequenceEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "SequencerScripting",
+			"Enabled": true
+		},
+		{
+			"Name": "TemplateSequence",
+			"Enabled": true
+		},
+		{
+			"Name": "JALI",
+			"Enabled": true,
+			"Optional": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "ReikonTools",
+			"Enabled": true
+		},
+		{
+			"Name": "Quest",
+			"Enabled": true
+		},
+		{
+			"Name": "Wwise",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "GameplayCameras",
+			"Enabled": true
+		},
+		{
+			"Name": "StructUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelSequencerUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "EngineCameras",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelAudio",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelLoading",
+			"Enabled": true
+		}
+	]
+}

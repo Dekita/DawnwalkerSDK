@@ -1,9 +1,9 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "MetricsScalingSettings.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODCOMBAT_API FMetricsScalingSettings {
+struct FMetricsScalingSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -84,6 +84,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float TauntMetric;
     
-    FMetricsScalingSettings();
+    DOGWOODCOMBAT_API FMetricsScalingSettings();
 };
 

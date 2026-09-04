@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "QuestNode.h"
 #include "QuestNodeAND.generated.h"
 
 UCLASS(Blueprintable)
-class DOGWOODQUEST_API UQuestNodeAND : public UQuestNode {
+class UQuestNodeAND : public UQuestNode {
     GENERATED_BODY()
 public:
 private:

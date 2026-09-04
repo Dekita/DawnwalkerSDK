@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "PopulationAreaManagerInterface.h"
 #include "PopulationAreaManagerImpl.generated.h"

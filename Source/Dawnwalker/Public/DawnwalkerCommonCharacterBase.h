@@ -84,12 +84,6 @@ protected:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     float CharacterScale;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Export, Transient, meta=(AllowPrivateAccess=true))
-    TWeakObjectPtr<URWAudioComponent> AkRootComponent;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Export, Transient, meta=(AllowPrivateAccess=true))
-    TWeakObjectPtr<URWAudioComponent> AkHeadComponent;
-    
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, Interp, Transient, meta=(AllowPrivateAccess=true))
     UNiagaraComponent* SpawnedVFX;
     
@@ -220,12 +214,6 @@ public:
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     FVector GetCharacterSocketLocation(const FGameplayTag& SocketTag) const;
-    
-    UFUNCTION(BlueprintCallable, BlueprintPure)
-    URWAudioComponent* GetAudioRootAkComponent() const;
-    
-    UFUNCTION(BlueprintCallable, BlueprintPure)
-    URWAudioComponent* GetAudioHeadAkComponent() const;
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     UAudioCharacterCommonBaseComponent* GetAudioCharacterCommonBaseComponent() const;

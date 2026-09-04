@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "CountedItem.h"
 #include "QuestSkillReward.h"
 #include "QuestRewardInfo.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODINVENTORY_API FQuestRewardInfo {
+struct FQuestRewardInfo {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -26,6 +26,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 VampireMutation;
     
-    FQuestRewardInfo();
+    DOGWOODINVENTORY_API FQuestRewardInfo();
 };
 

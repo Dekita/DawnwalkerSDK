@@ -1,0 +1,40 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1",
+	"FriendlyName": "Persistency",
+	"Description": "This plugin adds support for saving and restoring state of the objects in an open world environment.",
+	"Category": "Other",
+	"CreatedBy": "Rebel Wolves",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Persistency",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Wwise",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "NetImgui",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "RebelUtils",
+			"Enabled": true
+		}
+	]
+}

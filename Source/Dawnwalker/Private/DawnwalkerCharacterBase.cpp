@@ -1,11 +1,9 @@
 #include "DawnwalkerCharacterBase.h"
-#include "AkComponent.h"
 #include "InventoryComponent.h"
 #include "CharacterBaseAttributeSet.h"
 #include "Components/SceneComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "MotionWarpingComponent.h"
-#include "SkinnedDecalSampler.h"
 #include "AudioCharacterBaseComponent.h"
 #include "DWCharacterGapSqueezeComponent.h"
 #include "DawnwalkerAbilitySystemComponent.h"
@@ -20,9 +18,7 @@ ADawnwalkerCharacterBase::ADawnwalkerCharacterBase(const FObjectInitializer& Obj
     this->WoundContainerComponent = CreateDefaultSubobject<UWoundContainerComponent>(TEXT("Wound Container Component"));
     this->GapSqueezeComponent = CreateDefaultSubobject<UDWCharacterGapSqueezeComponent>(TEXT("GapSqueeze"));
     this->MotionWarpingComponent = CreateDefaultSubobject<UMotionWarpingComponent>(TEXT("MotionWarpingComponent"));
-    this->SkinnedDecalSampler = CreateDefaultSubobject<USkinnedDecalSampler>(TEXT("SkinnedDecalSampler"));
     this->CharacterAttributeSet = CreateDefaultSubobject<UCharacterBaseAttributeSet>(TEXT("CharacterAttributeSet"));
-    this->AkComponent = CreateDefaultSubobject<UAkComponent>(TEXT("Ak Component"));
     this->HeldObjectRoot = CreateDefaultSubobject<USceneComponent>(TEXT("HeldObjectRoot"));
     const FProperty* p_Mesh_Parent = GetClass()->FindPropertyByName("Mesh");
     this->HeldObject = NULL;
@@ -33,7 +29,6 @@ ADawnwalkerCharacterBase::ADawnwalkerCharacterBase(const FObjectInitializer& Obj
     this->bWantsToSprint = false;
     this->bExhaustionAffectsHealth = false;
     this->DefaultMaxCharacterSpeed = 0.00f;
-    this->AkComponent->SetupAttachment(RootComponent);
     this->HeldObjectRoot->SetupAttachment(p_Mesh_Parent->ContainerPtrToValuePtr<USkeletalMeshComponent>(this));
 }
 

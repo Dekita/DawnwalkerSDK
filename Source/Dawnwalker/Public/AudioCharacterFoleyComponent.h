@@ -15,9 +15,6 @@ public:
     UAudioCharacterAppearanceDataAsset* AppearanceData;
     
 private:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
-    URWAudioComponent* FoleyAudioTarget;
-    
 public:
     UAudioCharacterFoleyComponent(const FObjectInitializer& ObjectInitializer);
 

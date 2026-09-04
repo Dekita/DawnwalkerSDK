@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "Engine/DataTable.h"
 #include "GameplayTagContainer.h"
@@ -7,7 +7,7 @@
 class UStaticMesh;
 
 USTRUCT(BlueprintType)
-struct DOGWOODINVENTORY_API FWeaponAppearance : public FTableRowBase {
+struct FWeaponAppearance : public FTableRowBase {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -19,6 +19,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FGameplayTag SoundOverride;
     
-    FWeaponAppearance();
+    DOGWOODINVENTORY_API FWeaponAppearance();
 };
 

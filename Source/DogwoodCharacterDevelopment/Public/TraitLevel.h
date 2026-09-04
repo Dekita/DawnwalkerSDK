@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "GameplayTagContainer.h"
 #include "Templates/SubclassOf.h"
@@ -8,7 +8,7 @@
 class UGameplayEffect;
 
 USTRUCT(BlueprintType)
-struct DOGWOODCHARACTERDEVELOPMENT_API FTraitLevel {
+struct FTraitLevel {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -44,6 +44,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<FTraitLevelCustomGEOrGA> CustomGEOrGAs;
     
-    FTraitLevel();
+    DOGWOODCHARACTERDEVELOPMENT_API FTraitLevel();
 };
 

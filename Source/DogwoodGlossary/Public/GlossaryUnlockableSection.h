@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "ECommonInputType.h"
 #include "GameplayTagContainer.h"
 #include "GlossaryUnlockableSection.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODGLOSSARY_API FGlossaryUnlockableSection {
+struct FGlossaryUnlockableSection {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -23,6 +23,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     ECommonInputType RequiredInputType;
     
-    FGlossaryUnlockableSection();
+    DOGWOODGLOSSARY_API FGlossaryUnlockableSection();
 };
 

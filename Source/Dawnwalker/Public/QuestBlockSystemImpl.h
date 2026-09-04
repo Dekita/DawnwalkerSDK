@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "QuestBlockSystemInterface.h"
 #include "QuestBlockSystemImpl.generated.h"
@@ -7,7 +7,7 @@ class AActor;
 class UCinematicDialogue;
 
 UCLASS(Blueprintable)
-class DAWNWALKER_API UQuestBlockSystemImpl : public UQuestBlockSystemInterface {
+class UQuestBlockSystemImpl : public UQuestBlockSystemInterface {
     GENERATED_BODY()
 public:
     UQuestBlockSystemImpl();

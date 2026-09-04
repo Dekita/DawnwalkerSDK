@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "ChoiceCondition.h"
 #include "EVampireHunger.h"
@@ -6,7 +6,7 @@
 #include "VampireHungerChoiceCondition.generated.h"
 
 UCLASS(Blueprintable)
-class DAWNWALKER_API UVampireHungerChoiceCondition : public UChoiceCondition {
+class UVampireHungerChoiceCondition : public UChoiceCondition {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "GameplayTagContainer.h"
 #include "ComboAttack.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODCOMBAT_API FComboAttack {
+struct FComboAttack {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -13,6 +13,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float AnotherAttackMaxDistanceAdditionalOffset;
     
-    FComboAttack();
+    DOGWOODCOMBAT_API FComboAttack();
 };
 

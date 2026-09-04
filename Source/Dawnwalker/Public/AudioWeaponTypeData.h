@@ -12,9 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     EItemWeaponSubtype WeaponType;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    UAkSwitchValue* SWITCH;
-    
     FAudioWeaponTypeData();
 };
 

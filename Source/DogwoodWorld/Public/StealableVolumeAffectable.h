@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "StealableVolumeAffectable.generated.h"
 
 UINTERFACE()
-class DOGWOODWORLD_API UStealableVolumeAffectable : public UInterface {
+class UStealableVolumeAffectable : public UInterface {
     GENERATED_BODY()
 };
 

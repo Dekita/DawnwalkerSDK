@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "QuestNode.h"
 #include "QuestNodeManageLight.generated.h"
@@ -6,7 +6,7 @@
 class ALight;
 
 UCLASS(Blueprintable)
-class DAWNWALKER_API UQuestNodeManageLight : public UQuestNode {
+class UQuestNodeManageLight : public UQuestNode {
     GENERATED_BODY()
 public:
 private:

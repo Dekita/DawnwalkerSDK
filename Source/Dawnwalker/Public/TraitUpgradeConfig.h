@@ -1,9 +1,9 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "TraitUpgradeConfig.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FTraitUpgradeConfig {
+struct FTraitUpgradeConfig {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -18,6 +18,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bShowNotification;
     
-    FTraitUpgradeConfig();
+    DAWNWALKER_API FTraitUpgradeConfig();
 };
 

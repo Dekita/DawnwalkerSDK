@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "NPCPaymentSpecialChoice.h"
 #include "QuestCurrencyTransactionRowHandle.h"
 #include "CurrencyPaymentSpecialChoice.generated.h"
 
 UCLASS(Blueprintable)
-class DAWNWALKER_API UCurrencyPaymentSpecialChoice : public UNPCPaymentSpecialChoice {
+class UCurrencyPaymentSpecialChoice : public UNPCPaymentSpecialChoice {
     GENERATED_BODY()
 public:
 protected:

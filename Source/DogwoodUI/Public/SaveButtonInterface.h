@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "UISaveInfo.h"
@@ -7,7 +7,7 @@
 class UWidget;
 
 UINTERFACE(Blueprintable)
-class DOGWOODUI_API USaveButtonInterface : public UInterface {
+class USaveButtonInterface : public UInterface {
     GENERATED_BODY()
 };
 

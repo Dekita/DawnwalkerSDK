@@ -18,18 +18,9 @@ class DAWNWALKER_API UAudioCharacterEnvironmentComponent : public UActorComponen
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    UAkStateValue* CharacterVampireStateValue;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    UAkStateValue* CharacterDefaultStateValue;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UAudioAmbientMasksDataAsset* AmbientMasksDataAsset;
     
 private:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
-    TArray<URWAudioComponent*> FoliageComponentStore;
-    
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     ADawnwalkerPlayerCharacter* OwningPlayerCharacter;
     
@@ -50,9 +41,6 @@ public:
     
     UFUNCTION(BlueprintCallable)
     void SetCharacterEnteredRoom(AActor* OverlappedActor);
-    
-    UFUNCTION(BlueprintCallable)
-    float SampleCustomMaskAtLocation(const UBiomesMaskAsset* Mask, FVector2D Location);
     
     UFUNCTION(BlueprintCallable)
     void OnPlayerFormChanged(EPlayerFormState NewState);

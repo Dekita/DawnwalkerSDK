@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "QuestNodeActionBase.h"
 #include "QuestNodeResumeActivity.generated.h"
 
 UCLASS(Blueprintable)
-class DAWNWALKER_API UQuestNodeResumeActivity : public UQuestNodeActionBase {
+class UQuestNodeResumeActivity : public UQuestNodeActionBase {
     GENERATED_BODY()
 public:
 protected:

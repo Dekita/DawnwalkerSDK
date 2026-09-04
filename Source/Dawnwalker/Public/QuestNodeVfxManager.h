@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "ActorReference.h"
 #include "QuestNodeWaitingBase.h"
@@ -9,7 +9,7 @@ class UNiagaraSystem;
 class UStaticMesh;
 
 UCLASS(Blueprintable)
-class DAWNWALKER_API UQuestNodeVfxManager : public UQuestNodeWaitingBase {
+class UQuestNodeVfxManager : public UQuestNodeWaitingBase {
     GENERATED_BODY()
 public:
 private:

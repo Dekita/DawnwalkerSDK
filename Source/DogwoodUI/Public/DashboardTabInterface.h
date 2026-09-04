@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "DashboardTabInterface.generated.h"
 
 UINTERFACE(Blueprintable)
-class DOGWOODUI_API UDashboardTabInterface : public UInterface {
+class UDashboardTabInterface : public UInterface {
     GENERATED_BODY()
 };
 

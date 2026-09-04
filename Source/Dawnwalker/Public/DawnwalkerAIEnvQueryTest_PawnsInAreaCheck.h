@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "DataProviders/AIDataProvider.h"
 #include "EnvironmentQuery/EnvQueryTest.h"
@@ -6,7 +6,7 @@
 #include "DawnwalkerAIEnvQueryTest_PawnsInAreaCheck.generated.h"
 
 UCLASS(Blueprintable)
-class DAWNWALKER_API UDawnwalkerAIEnvQueryTest_PawnsInAreaCheck : public UEnvQueryTest {
+class UDawnwalkerAIEnvQueryTest_PawnsInAreaCheck : public UEnvQueryTest {
     GENERATED_BODY()
 public:
     UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))

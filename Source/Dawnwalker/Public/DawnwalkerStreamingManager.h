@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/Object.h"
@@ -6,7 +6,7 @@
 #include "DawnwalkerStreamingManager.generated.h"
 
 UCLASS(Blueprintable)
-class DAWNWALKER_API UDawnwalkerStreamingManager : public UObject {
+class UDawnwalkerStreamingManager : public UObject {
     GENERATED_BODY()
 public:
 private:

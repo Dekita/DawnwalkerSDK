@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Object.h"
 #include "UObject/NoExportTypes.h"
@@ -11,7 +11,7 @@ class UNiagaraComponent;
 class UNiagaraSystem;
 
 UCLASS(Blueprintable)
-class DOGWOODCOMBAT_API UActiveAbilityProjectile : public UObject {
+class UActiveAbilityProjectile : public UObject {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))

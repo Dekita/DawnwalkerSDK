@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "CreditsEntry.h"
 #include "CreditsEntryInterface.generated.h"
 
-UINTERFACE(Blueprintable)
-class DOGWOODUI_API UCreditsEntryInterface : public UInterface {
+UINTERFACE(Blueprintable, MinimalAPI)
+class UCreditsEntryInterface : public UInterface {
     GENERATED_BODY()
 };
 

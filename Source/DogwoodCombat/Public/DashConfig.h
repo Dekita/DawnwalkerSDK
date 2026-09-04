@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "DashMontageData.h"
 #include "DashConfig.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODCOMBAT_API FDashConfig {
+struct FDashConfig {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -26,6 +26,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bKeepOrientationToTarget;
     
-    FDashConfig();
+    DOGWOODCOMBAT_API FDashConfig();
 };
 

@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "CharacterStateProvider.generated.h"
 
 UINTERFACE()
-class DOGWOODSYSTEM_API UCharacterStateProvider : public UInterface {
+class UCharacterStateProvider : public UInterface {
     GENERATED_BODY()
 };
 

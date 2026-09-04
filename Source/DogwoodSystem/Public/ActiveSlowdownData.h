@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "ActiveSlowdownData.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODSYSTEM_API FActiveSlowdownData {
+struct FActiveSlowdownData {
     GENERATED_BODY()
 public:
-    FActiveSlowdownData();
+    DOGWOODSYSTEM_API FActiveSlowdownData();
 };
 

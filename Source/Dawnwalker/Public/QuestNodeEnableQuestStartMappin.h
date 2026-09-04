@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "QuestNodeActionBase.h"
 #include "QuestNodeEnableQuestStartMappin.generated.h"
@@ -6,7 +6,7 @@
 class UQuest;
 
 UCLASS(Blueprintable)
-class DAWNWALKER_API UQuestNodeEnableQuestStartMappin : public UQuestNodeActionBase {
+class UQuestNodeEnableQuestStartMappin : public UQuestNodeActionBase {
     GENERATED_BODY()
 public:
 private:

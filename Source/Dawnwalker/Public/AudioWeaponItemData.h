@@ -12,9 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UItemWeaponDataAsset* Item;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    UAkSwitchValue* SWITCH;
-    
     FAudioWeaponItemData();
 };
 

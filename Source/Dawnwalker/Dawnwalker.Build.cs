@@ -1,4 +1,4 @@
-﻿using UnrealBuildTool;
+using UnrealBuildTool;
 
 public class Dawnwalker : ModuleRules {
     public Dawnwalker(ReadOnlyTargetRules Target) : base(Target) {
@@ -7,13 +7,9 @@ public class Dawnwalker : ModuleRules {
         ShadowVariableWarningLevel = WarningLevel.Warning;
         
         PublicDependencyModuleNames.AddRange(new string[] {
-            "CinematicCamera",
-            "FieldNotification",
-            "MovieScene",
-            "UniversalObjectLocator",
             "AIModule",
-            "AkAudio",
             "AnimationBudgetAllocator",
+            "CinematicCamera",
             "CommonUI",
             "Core",
             "CoreUObject",
@@ -41,7 +37,6 @@ public class Dawnwalker : ModuleRules {
             "DogwoodWorld",
             "Engine",
             "EnhancedInput",
-            "ErrantBiomesRuntime",
             "FactsDB",
             "Flow",
             "GamepadVibration",
@@ -49,7 +44,6 @@ public class Dawnwalker : ModuleRules {
             "GameplayTags",
             "GameplayTasks",
             "InputCore",
-            "JALI",
             "LevelSequence",
             "MediaAssets",
             "MotionWarping",
@@ -72,13 +66,11 @@ public class Dawnwalker : ModuleRules {
             "RebelSpatialSystem",
             "RebelTableRow",
             "RebelUtils",
-            "SkinnedDecalComponent",
             "SkyCreatorPlugin",
             "Slate",
             "SlateCore",
             "StateTreeModule",
             "UMG",
-            "WwiseExtensions",
         });
     }
 }

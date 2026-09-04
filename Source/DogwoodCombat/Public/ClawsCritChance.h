@@ -1,12 +1,12 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "PresentedStatValueType.h"
 #include "ClawsCritChance.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODCOMBAT_API FClawsCritChance : public FPresentedStatValueType {
+struct FClawsCritChance : public FPresentedStatValueType {
     GENERATED_BODY()
 public:
-    FClawsCritChance();
+    DOGWOODCOMBAT_API FClawsCritChance();
 };
 

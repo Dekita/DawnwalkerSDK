@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "ActiveGameplayEffectHandle.h"
 #include "GameplayEffectSpec.h"
@@ -7,7 +7,7 @@
 class UDogwoodPersistentGEComponent;
 
 USTRUCT(BlueprintType)
-struct DOGWOODABILITYSYSTEM_API FRuntimePersistentEffectData {
+struct FRuntimePersistentEffectData {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
@@ -19,6 +19,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, Transient, meta=(AllowPrivateAccess=true))
     UDogwoodPersistentGEComponent* PersistentEffectComp;
     
-    FRuntimePersistentEffectData();
+    DOGWOODABILITYSYSTEM_API FRuntimePersistentEffectData();
 };
 

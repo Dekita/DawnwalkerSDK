@@ -20,6 +20,7 @@
 #include "DawnwalkerCharacterBase.generated.h"
 
 class AActor;
+class UAbilitySystemComponent;
 class UAkComponent;
 class UAudioCharacterBaseComponent;
 class UCharacterAbilityConfig;
@@ -59,14 +60,8 @@ public:
     UMotionWarpingComponent* MotionWarpingComponent;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
-    USkinnedDecalSampler* SkinnedDecalSampler;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UCharacterBaseAttributeSet* CharacterAttributeSet;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
-    UAkComponent* AkComponent;
-    
+
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     USceneComponent* HeldObjectRoot;
     
@@ -236,7 +231,6 @@ protected:
     UFUNCTION(BlueprintCallable)
     FGameplayTagContainer BP_GetOwnedGameplayTags() const override PURE_VIRTUAL(BP_GetOwnedGameplayTags, return FGameplayTagContainer{};);
 
-    // IAbilitySystemInterface: real implementation unknown, but this class already holds the component, so return it.
     virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 
 };

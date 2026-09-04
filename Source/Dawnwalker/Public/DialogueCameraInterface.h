@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "CameraSpecHandle.h"
 #include "DialogueCameraInterface.generated.h"
 
-UINTERFACE(Blueprintable)
-class DAWNWALKER_API UDialogueCameraInterface : public UInterface {
+UINTERFACE(Blueprintable, MinimalAPI)
+class UDialogueCameraInterface : public UInterface {
     GENERATED_BODY()
 };
 

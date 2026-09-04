@@ -1,9 +1,9 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "VampireHungerLevelPostProcessSettings.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODVAMPIREHUNGER_API FVampireHungerLevelPostProcessSettings {
+struct FVampireHungerLevelPostProcessSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float Intensity;
     
-    FVampireHungerLevelPostProcessSettings();
+    DOGWOODVAMPIREHUNGER_API FVampireHungerLevelPostProcessSettings();
 };
 

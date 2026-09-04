@@ -1,4 +1,4 @@
-﻿using UnrealBuildTool;
+using UnrealBuildTool;
 
 public class DogwoodDialogue : ModuleRules {
     public DogwoodDialogue(ReadOnlyTargetRules Target) : base(Target) {
@@ -7,16 +7,6 @@ public class DogwoodDialogue : ModuleRules {
         ShadowVariableWarningLevel = WarningLevel.Warning;
         
         PublicDependencyModuleNames.AddRange(new string[] {
-            "CinematicCamera",
-            "NavigationSystem",
-            "FieldNotification",
-            "GameplayTasks",
-            "MovieScene",
-            "UMG",
-            "UniversalObjectLocator",
-            "Flow",
-            "NodeRuntime",
-            "AkAudio",
             "Core",
             "CoreUObject",
             "DeveloperSettings",
@@ -26,6 +16,7 @@ public class DogwoodDialogue : ModuleRules {
             "DogwoodSystem",
             "DogwoodVampireHunger",
             "Engine",
+            "Flow",
             "GameplayTags",
             "LevelSequence",
             "Quest",

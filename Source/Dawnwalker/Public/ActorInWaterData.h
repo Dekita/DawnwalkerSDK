@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "ActorInWaterData.generated.h"
@@ -6,7 +6,7 @@
 class AActor;
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FActorInWaterData {
+struct FActorInWaterData {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
@@ -27,6 +27,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     bool bDidFirstUpdateWhenEnteredWater;
     
-    FActorInWaterData();
+    DAWNWALKER_API FActorInWaterData();
 };
 

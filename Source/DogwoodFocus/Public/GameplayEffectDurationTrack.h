@@ -18,8 +18,8 @@ protected:
 public:
     UGameplayEffectDurationTrack();
 
-protected:
-    // Real implementation unknown (not reconstructable from reflection data); returns an empty/no-op template.
+
+    // Fix for true pure virtual functions not being implemented
     virtual FMovieSceneEvalTemplatePtr CreateTemplateForSection(const UMovieSceneSection& InSection) const override { return FMovieSceneEvalTemplatePtr(); }
 };
 

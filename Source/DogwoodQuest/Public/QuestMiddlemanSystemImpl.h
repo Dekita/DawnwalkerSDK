@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "QuestMiddlemanSystemInterface.h"
 #include "QuestMiddlemanSystemImpl.generated.h"
@@ -6,7 +6,7 @@
 class AActor;
 
 UCLASS(Blueprintable)
-class DOGWOODQUEST_API UQuestMiddlemanSystemImpl : public UQuestMiddlemanSystemInterface {
+class UQuestMiddlemanSystemImpl : public UQuestMiddlemanSystemInterface {
     GENERATED_BODY()
 public:
 private:

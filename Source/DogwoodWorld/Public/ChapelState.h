@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "ChapelState.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODWORLD_API FChapelState {
+struct FChapelState {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -22,6 +22,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bWasInteractedAtLeastOnce;
     
-    FChapelState();
+    DOGWOODWORLD_API FChapelState();
 };
 

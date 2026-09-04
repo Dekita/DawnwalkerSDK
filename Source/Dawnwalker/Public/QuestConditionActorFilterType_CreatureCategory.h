@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "ECreatureCategoryType.h"
 #include "QuestConditionActorFilterType.h"
 #include "QuestConditionActorFilterType_CreatureCategory.generated.h"
 
 UCLASS(Blueprintable, CollapseCategories, EditInlineNew)
-class DAWNWALKER_API UQuestConditionActorFilterType_CreatureCategory : public UQuestConditionActorFilterType {
+class UQuestConditionActorFilterType_CreatureCategory : public UQuestConditionActorFilterType {
     GENERATED_BODY()
 public:
 protected:

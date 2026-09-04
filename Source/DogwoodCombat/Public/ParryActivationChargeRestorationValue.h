@@ -1,12 +1,12 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "PresentedStatValueType.h"
 #include "ParryActivationChargeRestorationValue.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODCOMBAT_API FParryActivationChargeRestorationValue : public FPresentedStatValueType {
+struct FParryActivationChargeRestorationValue : public FPresentedStatValueType {
     GENERATED_BODY()
 public:
-    FParryActivationChargeRestorationValue();
+    DOGWOODCOMBAT_API FParryActivationChargeRestorationValue();
 };
 

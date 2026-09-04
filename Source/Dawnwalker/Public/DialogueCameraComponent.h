@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "CinematicCameraComponent.h"
 #include "CameraSpecHandle.h"
@@ -8,7 +8,7 @@
 class UMaterialInstanceDynamic;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class DAWNWALKER_API UDialogueCameraComponent : public UCinematicCameraComponent, public IDialogueCameraInterface {
+class UDialogueCameraComponent : public UCinematicCameraComponent, public IDialogueCameraInterface {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
@@ -25,7 +25,7 @@ protected:
     FCameraSpecHandle CameraHandle;
     
 public:
-    UDialogueCameraComponent(const FObjectInitializer& ObjectInitializer);
+    UDialogueCameraComponent();
 
 
     // Fix for true pure virtual functions not being implemented

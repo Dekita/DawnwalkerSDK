@@ -7,7 +7,6 @@ public class DogwoodUI : ModuleRules {
         ShadowVariableWarningLevel = WarningLevel.Warning;
         
         PublicDependencyModuleNames.AddRange(new string[] {
-            "AkAudio",
             "BinkMediaPlayer",
             "CommonUI",
             "Core",

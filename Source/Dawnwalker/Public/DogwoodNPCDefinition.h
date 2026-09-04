@@ -143,9 +143,6 @@ public:
     FGameplayTag CombatMusicOverride;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    URWAudioComponentSettingsPreset* RWAudioPreset;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSubclassOf<UAnimInstance> FaceDefaultAnimLayer;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

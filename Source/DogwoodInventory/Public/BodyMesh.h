@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "BodyMesh.generated.h"
 
@@ -6,7 +6,7 @@ class UMaterialInterface;
 class USkeletalMesh;
 
 USTRUCT(BlueprintType)
-struct DOGWOODINVENTORY_API FBodyMesh {
+struct FBodyMesh {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -15,6 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<TSoftObjectPtr<UMaterialInterface>> OverrideMaterials;
     
-    FBodyMesh();
+    DOGWOODINVENTORY_API FBodyMesh();
 };
 

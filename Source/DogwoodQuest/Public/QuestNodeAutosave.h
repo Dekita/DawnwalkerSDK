@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "EQuestAutosaveType.h"
 #include "QuestNodeWaitingBase.h"
 #include "QuestNodeAutosave.generated.h"
 
 UCLASS(Blueprintable)
-class DOGWOODQUEST_API UQuestNodeAutosave : public UQuestNodeWaitingBase {
+class UQuestNodeAutosave : public UQuestNodeWaitingBase {
     GENERATED_BODY()
 public:
 protected:

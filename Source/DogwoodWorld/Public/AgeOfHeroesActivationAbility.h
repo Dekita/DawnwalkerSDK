@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "OpenWorldFocusAbility.h"
 #include "PermanentBuffProvider.h"
@@ -36,7 +36,7 @@ public:
     UFUNCTION(BlueprintCallable)
     void PlayAbilityMontage(AActor* Target);
     
-    UFUNCTION()
+    UFUNCTION(BlueprintCallable)
     void OnVfxSpawn();
     
     UFUNCTION()

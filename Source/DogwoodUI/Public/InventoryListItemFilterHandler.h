@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "InventoryListItemFilterHandler.generated.h"
@@ -6,7 +6,7 @@
 class UItemBaseDataAsset;
 
 UINTERFACE(Blueprintable)
-class DOGWOODUI_API UInventoryListItemFilterHandler : public UInterface {
+class UInventoryListItemFilterHandler : public UInterface {
     GENERATED_BODY()
 };
 

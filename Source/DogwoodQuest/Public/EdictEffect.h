@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "EdictEffect.generated.h"
 
 class UPaperSprite;
 
 USTRUCT(BlueprintType)
-struct DOGWOODQUEST_API FEdictEffect {
+struct FEdictEffect {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -14,6 +14,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FText EffectName;
     
-    FEdictEffect();
+    DOGWOODQUEST_API FEdictEffect();
 };
 

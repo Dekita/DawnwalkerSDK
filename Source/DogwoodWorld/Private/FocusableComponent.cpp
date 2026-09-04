@@ -5,8 +5,6 @@ UFocusableComponent::UFocusableComponent(const FObjectInitializer& ObjectInitial
     this->bHighlightOwnerActor = true;
     this->bHighlightAttachedActors = true;
     this->bEmitsSound = false;
-    this->EnterFocusSoundEvent = NULL;
-    this->LeaveFocusSoundEvent = NULL;
     this->LoadedNiagaraFocusSystem = NULL;
     this->SpawnedSoundParticle = NULL;
     this->HighlightType = EFocusHighlightType::Regular;

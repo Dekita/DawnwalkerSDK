@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Object.h"
 #include "QuestConditionActorFilterType.generated.h"
 
 UCLASS(Abstract, Blueprintable, CollapseCategories, DefaultToInstanced, EditInlineNew)
-class DAWNWALKER_API UQuestConditionActorFilterType : public UObject {
+class UQuestConditionActorFilterType : public UObject {
     GENERATED_BODY()
 public:
     UQuestConditionActorFilterType();

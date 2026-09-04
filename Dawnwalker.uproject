@@ -5,57 +5,7 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "AchievementSystem",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "ActivitiesSystem",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "AkAudio",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "AutoRigService",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "ClipboardExtension",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "CopyToClipboard",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
 			"Name": "Dawnwalker",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "DialogueSystem",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "DLSS",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "DLSSBlueprint",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "DNAInterchange",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		},
@@ -173,394 +123,667 @@
 			"Name": "DogwoodWorld",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "ErrantBiomesPCG",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "ErrantBiomesRuntime",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "ErrantInstanceInteraction",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "FactsDB",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "FFXFSR4Settings",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "Flow",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "GamepadLightbarSystem",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "GamepadVibration",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "HoudiniEngineRuntime",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "JALI",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "KiBLII",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "KiBLIICommonUI",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "LiveLinkMvnPlugin",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "MetaHumanConfig",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "MetaHumanCore",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "MetaHumanFaceAnimationSolver",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "MetaHumanFaceContourTracker",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "MetaHumanFaceFittingSolver",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "MetaHumanIdentity",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "MetaHumanMeshTracker",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "MetaHumanPipeline",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "NetImgui",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "NodeRuntime",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "Persistency",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "Population",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "Quest",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelAI",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelAudio",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelBypassing",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelCamera",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelDebugService",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelEvaluators",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelFoliage",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelFormation",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelFramegenInitModule",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelGenericTreeModule",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelGrid",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelHLTreeModule",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelHorse",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelInput",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelInputDisplay",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelLoading",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelLocomotion",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelNavigation",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelRoads",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelRoadsUnifiedNavigation",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelSettings",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelSpatialSystem",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelTableRow",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelToast",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RebelUtils",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "RuntimeCurvesUtilities",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "ScreenSpaceFogScattering",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "SimplygonUObjects",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "SkinnedDecalComponent",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "SkyCreatorPlugin",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "SPCRJointDynamics",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "StandinActor",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "StreamlineBlueprint",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "StreamlineDLSSGBlueprint",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "StreamlineReflexBlueprint",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "StreamlineRHI",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "WwiseAudioLinkRuntime",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "WwiseExtensions",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "WwiseFileHandler",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "WwiseNiagara",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "WwiseObjectUtils",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "WwisePackaging",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "WwisePackagingRuntime",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "WwiseResourceLoader",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "WwiseSimpleExternalSource",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "XeFGBlueprint",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "XeLLBlueprint",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "XeSSBlueprint",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "XeSSCore",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
 		}
 	],
 	"Plugins": [
+		{
+			"Name": "Paper2D",
+			"Enabled": true
+		},
+		{
+			"Name": "AISupport",
+			"Enabled": true
+		},
+		{
+			"Name": "EnvironmentQueryEditor",
+			"Enabled": true
+		},
 		{
 			"Name": "ACLPlugin",
 			"Enabled": true
 		},
 		{
-			"Name": "ActorLayerUtilities",
+			"Name": "AnimationData",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimationLocomotionLibrary",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimationModifierLibrary",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimationWarping",
+			"Enabled": true
+		},
+		{
+			"Name": "ControlRigModules",
+			"Enabled": true
+		},
+		{
+			"Name": "ControlRigSpline",
+			"Enabled": true
+		},
+		{
+			"Name": "ControlRig",
+			"Enabled": true
+		},
+		{
+			"Name": "DeformerGraph",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayInsights",
+			"Enabled": true
+		},
+		{
+			"Name": "IKRig",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLink",
+			"Enabled": true
+		},
+		{
+			"Name": "MotionWarping",
+			"Enabled": true
+		},
+		{
+			"Name": "RigLogic",
+			"Enabled": true
+		},
+		{
+			"Name": "Bridge",
+			"Enabled": true
+		},
+		{
+			"Name": "CameraShakePreviewer",
+			"Enabled": true
+		},
+		{
+			"Name": "EngineCameras",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayCameras",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosClothAssetEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosClothAsset",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosCloth",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosVD",
+			"Enabled": true
+		},
+		{
+			"Name": "OpenColorIO",
+			"Enabled": true
+		},
+		{
+			"Name": "OodleNetwork",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimationSharing",
+			"Enabled": true
+		},
+		{
+			"Name": "ConcertMain",
+			"Enabled": true
+		},
+		{
+			"Name": "ConcertSyncClient",
+			"Enabled": true
+		},
+		{
+			"Name": "ConcertSyncCore",
+			"Enabled": true
+		},
+		{
+			"Name": "ConcertSharedSlate",
+			"Enabled": true
+		},
+		{
+			"Name": "PluginUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "TraceDataFilters",
+			"Enabled": true
+		},
+		{
+			"Name": "TraceSourceFilters",
+			"Enabled": true
+		},
+		{
+			"Name": "UObjectPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "AssetManagerEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "AssetSearch",
+			"Enabled": true
+		},
+		{
+			"Name": "BlueprintHeaderView",
+			"Enabled": true
+		},
+		{
+			"Name": "BlueprintMaterialTextureNodes",
+			"Enabled": true
+		},
+		{
+			"Name": "ColorGrading",
+			"Enabled": true
+		},
+		{
+			"Name": "ConsoleVariables",
+			"Enabled": true
+		},
+		{
+			"Name": "ContentBrowserAssetDataSource",
+			"Enabled": true
+		},
+		{
+			"Name": "DataValidation",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "FacialAnimation",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayTagsEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "GeometryMode",
+			"Enabled": true
+		},
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true
+		},
+		{
+			"Name": "LightMixer",
+			"Enabled": true
+		},
+		{
+			"Name": "ObjectMixer",
+			"Enabled": true
+		},
+		{
+			"Name": "ProxyLODPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "SequencerAnimTools",
+			"Enabled": true
+		},
+		{
+			"Name": "SpeedTreeImporter",
+			"Enabled": true
+		},
+		{
+			"Name": "UMGWidgetPreview",
+			"Enabled": true
+		},
+		{
+			"Name": "UVEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		},
+		{
+			"Name": "DatasmithContent",
+			"Enabled": true
+		},
+		{
+			"Name": "GLTFExporter",
+			"Enabled": true
+		},
+		{
+			"Name": "MDLImporter",
+			"Enabled": true
+		},
+		{
+			"Name": "VariantManagerContent",
+			"Enabled": true
+		},
+		{
+			"Name": "VariantManager",
+			"Enabled": true
+		},
+		{
+			"Name": "AdvancedRenamer",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimToTexture",
+			"Enabled": true
+		},
+		{
+			"Name": "SkeletalMeshModelingTools",
+			"Enabled": true
+		},
+		{
+			"Name": "AutomationUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "BackChannel",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosCaching",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosNiagara",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosSolverPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosUserDataPT",
+			"Enabled": true
+		},
+		{
+			"Name": "CharacterAI",
+			"Enabled": true
+		},
+		{
+			"Name": "HoldoutComposite",
+			"Enabled": true
+		},
+		{
+			"Name": "Dataflow",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorDataStorage",
+			"Enabled": true
+		},
+		{
+			"Name": "Fracture",
+			"Enabled": true
+		},
+		{
+			"Name": "FullBodyIK",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayBehaviors",
+			"Enabled": true
+		},
+		{
+			"Name": "TargetingSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "GeometryCollectionPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "ImagePlate",
+			"Enabled": true
+		},
+		{
+			"Name": "ImpostorBaker",
+			"Enabled": true
+		},
+		{
+			"Name": "Landmass",
+			"Enabled": true
+		},
+		{
+			"Name": "LandscapePatch",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLinkControlRig",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLinkFaceImporter",
+			"Enabled": true
+		},
+		{
+			"Name": "LocalizableMessage",
+			"Enabled": true
+		},
+		{
+			"Name": "MeshModelingToolsetExp",
+			"Enabled": true
+		},
+		{
+			"Name": "MetaHumanSDK",
+			"Enabled": true
+		},
+		{
+			"Name": "NFORDenoise",
+			"Enabled": true
+		},
+		{
+			"Name": "PlanarCut",
+			"Enabled": true
+		},
+		{
+			"Name": "PlatformCrypto",
+			"Enabled": true
+		},
+		{
+			"Name": "PythonScriptPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "StructUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "StudioTelemetry",
+			"Enabled": true
+		},
+		{
+			"Name": "TextToSpeech",
+			"Enabled": true
+		},
+		{
+			"Name": "ToolPresets",
+			"Enabled": true
+		},
+		{
+			"Name": "VirtualHeightfieldMesh",
+			"Enabled": true
+		},
+		{
+			"Name": "Volumetrics",
+			"Enabled": true
+		},
+		{
+			"Name": "NiagaraFluids",
+			"Enabled": true
+		},
+		{
+			"Name": "NiagaraSimCaching",
+			"Enabled": true
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "Fab",
+			"Enabled": true
+		},
+		{
+			"Name": "AlembicHairImporter",
+			"Enabled": true
+		},
+		{
+			"Name": "AlembicImporter",
+			"Enabled": true
+		},
+		{
+			"Name": "USDImporter",
+			"Enabled": true
+		},
+		{
+			"Name": "InterchangeAssets",
+			"Enabled": true
+		},
+		{
+			"Name": "InterchangeEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "Interchange",
+			"Enabled": true
+		},
+		{
+			"Name": "CamScout",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "ErrantBiomes",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "ErrantInstanceInteraction",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "FSR4",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "HoudiniEngine",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "JALI",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "KiBLII",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "MetaHuman",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "PBL_Database",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "ScreenSpaceFogScattering",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "SkinnedDecalComponent",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "NetImgui",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "WwiseNiagara",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "WwiseSoundEngine",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "Wwise",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "XeSS",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "AppleProResMedia",
+			"Enabled": true
+		},
+		{
+			"Name": "AvfMedia",
+			"Enabled": true
+		},
+		{
+			"Name": "BinkMedia",
+			"Enabled": true
+		},
+		{
+			"Name": "ElectraCDM",
+			"Enabled": true
+		},
+		{
+			"Name": "ElectraSubtitles",
+			"Enabled": true
+		},
+		{
+			"Name": "ElectraUtil",
+			"Enabled": true
+		},
+		{
+			"Name": "ImgMedia",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaCompositing",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaIOFramework",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaPlate",
+			"Enabled": true
+		},
+		{
+			"Name": "WmfMedia",
+			"Enabled": true
+		},
+		{
+			"Name": "MeshPainting",
+			"Enabled": true
+		},
+		{
+			"Name": "TcpMessaging",
+			"Enabled": true
+		},
+		{
+			"Name": "UdpMessaging",
 			"Enabled": true
 		},
 		{
 			"Name": "ActorSequence",
+			"Enabled": true
+		},
+		{
+			"Name": "LevelSequenceEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "MovieRenderPipeline",
+			"Enabled": true
+		},
+		{
+			"Name": "SequencerScripting",
+			"Enabled": true
+		},
+		{
+			"Name": "TemplateSequence",
+			"Enabled": true
+		},
+		{
+			"Name": "NNEDenoiser",
+			"Enabled": true
+		},
+		{
+			"Name": "NNERuntimeORT",
+			"Enabled": true
+		},
+		{
+			"Name": "EOSShared",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineBase",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineFramework",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineServices",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemNull",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "PCG",
+			"Enabled": true
+		},
+		{
+			"Name": "LauncherChunkInstaller",
+			"Enabled": true
+		},
+		{
+			"Name": "ARUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "AppleARKitFaceSupport",
+			"Enabled": true
+		},
+		{
+			"Name": "AppleARKit",
+			"Enabled": true
+		},
+		{
+			"Name": "ActorLayerUtilities",
 			"Enabled": true
 		},
 		{
@@ -580,60 +803,11 @@
 			"Enabled": true
 		},
 		{
-			"Name": "AnimationLocomotionLibrary",
-			"Enabled": true
-		},
-		{
-			"Name": "AnimationSharing",
-			"Enabled": true
-		},
-		{
-			"Name": "AnimationWarping",
-			"Enabled": true
-		},
-		{
-			"Name": "AnimToTexture",
-			"Enabled": true
-		},
-		{
-			"Name": "AppleARKit",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"IOS",
-				"Win64",
-				"Mac",
-				"Linux",
-				"Android"
-			]
-		},
-		{
-			"Name": "AppleARKitFaceSupport",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"IOS",
-				"Win64",
-				"Mac",
-				"Linux",
-				"Android"
-			]
-		},
-		{
 			"Name": "AppleImageUtils",
 			"Enabled": true
 		},
 		{
-			"Name": "AppleProResMedia",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64"
-			]
-		},
-		{
 			"Name": "ArchVisCharacter",
-			"Enabled": true
-		},
-		{
-			"Name": "ARUtilities",
 			"Enabled": true
 		},
 		{
@@ -653,47 +827,11 @@
 			"Enabled": true
 		},
 		{
-			"Name": "AutomationUtils",
-			"Enabled": true
-		},
-		{
-			"Name": "AvfMedia",
-			"Enabled": true
-		},
-		{
-			"Name": "BinkMedia",
-			"Enabled": true
-		},
-		{
 			"Name": "CableComponent",
 			"Enabled": true
 		},
 		{
-			"Name": "CameraCalibrationCore",
-			"Enabled": true
-		},
-		{
-			"Name": "CaptureData",
-			"Enabled": true
-		},
-		{
-			"Name": "ChaosCaching",
-			"Enabled": true
-		},
-		{
-			"Name": "ChaosCloth",
-			"Enabled": true
-		},
-		{
-			"Name": "ChaosClothAsset",
-			"Enabled": true
-		},
-		{
-			"Name": "ChaosNiagara",
-			"Enabled": true
-		},
-		{
-			"Name": "ChaosVD",
+			"Name": "ChunkDownloader",
 			"Enabled": true
 		},
 		{
@@ -705,23 +843,7 @@
 			"Enabled": true
 		},
 		{
-			"Name": "ConsoleVariables",
-			"Enabled": true
-		},
-		{
-			"Name": "ControlRig",
-			"Enabled": true
-		},
-		{
-			"Name": "ControlRigSpline",
-			"Enabled": true
-		},
-		{
 			"Name": "CustomMeshComponent",
-			"Enabled": true
-		},
-		{
-			"Name": "Dataflow",
 			"Enabled": true
 		},
 		{
@@ -729,31 +851,11 @@
 			"Enabled": true
 		},
 		{
-			"Name": "DatasmithContent",
+			"Name": "SQLiteCore",
 			"Enabled": true
 		},
 		{
-			"Name": "DeformerGraph",
-			"Enabled": true
-		},
-		{
-			"Name": "EngineCameras",
-			"Enabled": true
-		},
-		{
-			"Name": "EnhancedInput",
-			"Enabled": true
-		},
-		{
-			"Name": "FacialAnimation",
-			"Enabled": true
-		},
-		{
-			"Name": "Fracture",
-			"Enabled": true
-		},
-		{
-			"Name": "FullBodyIK",
+			"Name": "ExampleDeviceProfileSelector",
 			"Enabled": true
 		},
 		{
@@ -761,15 +863,7 @@
 			"Enabled": true
 		},
 		{
-			"Name": "GameplayBehaviors",
-			"Enabled": true
-		},
-		{
 			"Name": "GameplayBehaviorSmartObjects",
-			"Enabled": true
-		},
-		{
-			"Name": "GameplayCameras",
 			"Enabled": true
 		},
 		{
@@ -781,7 +875,7 @@
 			"Enabled": true
 		},
 		{
-			"Name": "GeometryCollectionPlugin",
+			"Name": "GeometryProcessing",
 			"Enabled": true
 		},
 		{
@@ -789,11 +883,11 @@
 			"Enabled": true
 		},
 		{
-			"Name": "GLTFExporter",
+			"Name": "GooglePAD",
 			"Enabled": true
 		},
 		{
-			"Name": "GooglePAD",
+			"Name": "HDRIBackdrop",
 			"Enabled": true
 		},
 		{
@@ -801,84 +895,11 @@
 			"Enabled": true
 		},
 		{
-			"Name": "HoldoutComposite",
-			"Enabled": true
-		},
-		{
-			"Name": "IKRig",
-			"Enabled": true
-		},
-		{
-			"Name": "ImagePlate",
-			"Enabled": true
-		},
-		{
-			"Name": "ImgMedia",
-			"Enabled": true
-		},
-		{
-			"Name": "Interchange",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux",
-				"Mac"
-			]
-		},
-		{
-			"Name": "Landmass",
-			"Enabled": true
-		},
-		{
-			"Name": "LandscapePatch",
-			"Enabled": true
-		},
-		{
-			"Name": "LensComponent",
-			"Enabled": true
-		},
-		{
-			"Name": "LiveLink",
-			"Enabled": true
-		},
-		{
-			"Name": "LiveLinkCamera",
-			"Enabled": true
-		},
-		{
-			"Name": "LiveLinkControlRig",
-			"Enabled": true
-		},
-		{
-			"Name": "LocalizableMessage",
-			"Enabled": true
-		},
-		{
 			"Name": "LocationServicesBPLibrary",
 			"Enabled": true
 		},
 		{
-			"Name": "MediaCompositing",
-			"Enabled": true
-		},
-		{
-			"Name": "MediaIOFramework",
-			"Enabled": true
-		},
-		{
-			"Name": "MediaPlate",
-			"Enabled": true
-		},
-		{
 			"Name": "MeshModelingToolset",
-			"Enabled": true
-		},
-		{
-			"Name": "MeshModelingToolsetExp",
-			"Enabled": true
-		},
-		{
-			"Name": "MetaHumanSDK",
 			"Enabled": true
 		},
 		{
@@ -890,68 +911,35 @@
 			"Enabled": true
 		},
 		{
-			"Name": "MotionWarping",
+			"Name": "MsQuic",
 			"Enabled": true
 		},
 		{
-			"Name": "MovieRenderPipeline",
-			"Enabled": true
-		},
-		{
-			"Name": "Niagara",
-			"Enabled": true
-		},
-		{
-			"Name": "NiagaraSimCaching",
-			"Enabled": true
-		},
-		{
-			"Name": "NNEDenoiser",
+			"Name": "DLSS",
 			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux",
-				"Mac"
-			]
+			"Optional": true
 		},
 		{
-			"Name": "NNERuntimeORT",
-			"Enabled": true
+			"Name": "StreamlineCore",
+			"Enabled": true,
+			"Optional": true
 		},
 		{
-			"Name": "OnlineFramework",
-			"Enabled": true
+			"Name": "StreamlineDLSSG",
+			"Enabled": true,
+			"Optional": true
 		},
 		{
-			"Name": "OnlineSubsystem",
-			"Enabled": true
-		},
-		{
-			"Name": "OnlineSubsystemSteam",
-			"Enabled": true
-		},
-		{
-			"Name": "OnlineSubsystemUtils",
-			"Enabled": true
-		},
-		{
-			"Name": "OodleNetwork",
-			"Enabled": true
-		},
-		{
-			"Name": "OpenColorIO",
-			"Enabled": true
-		},
-		{
-			"Name": "Paper2D",
-			"Enabled": true
-		},
-		{
-			"Name": "PCG",
-			"Enabled": true
+			"Name": "StreamlineReflex",
+			"Enabled": true,
+			"Optional": true
 		},
 		{
 			"Name": "ProceduralMeshComponent",
+			"Enabled": true
+		},
+		{
+			"Name": "PropertyAccessEditor",
 			"Enabled": true
 		},
 		{
@@ -963,15 +951,7 @@
 			"Enabled": true
 		},
 		{
-			"Name": "RigLogic",
-			"Enabled": true
-		},
-		{
 			"Name": "RigVM",
-			"Enabled": true
-		},
-		{
-			"Name": "SequencerScripting",
 			"Enabled": true
 		},
 		{
@@ -995,6 +975,10 @@
 			"Enabled": true
 		},
 		{
+			"Name": "SteamShared",
+			"Enabled": true
+		},
+		{
 			"Name": "SunPosition",
 			"Enabled": true
 		},
@@ -1003,51 +987,7 @@
 			"Enabled": true
 		},
 		{
-			"Name": "Takes",
-			"Enabled": true
-		},
-		{
-			"Name": "TargetingSystem",
-			"Enabled": true
-		},
-		{
-			"Name": "TcpMessaging",
-			"Enabled": true
-		},
-		{
-			"Name": "TemplateSequence",
-			"Enabled": true
-		},
-		{
-			"Name": "TextToSpeech",
-			"Enabled": true
-		},
-		{
-			"Name": "TraceUtilities",
-			"Enabled": true
-		},
-		{
-			"Name": "UdpMessaging",
-			"Enabled": true
-		},
-		{
-			"Name": "UObjectPlugin",
-			"Enabled": true
-		},
-		{
 			"Name": "USDCore",
-			"Enabled": true
-		},
-		{
-			"Name": "USDImporter",
-			"Enabled": true
-		},
-		{
-			"Name": "VariantManagerContent",
-			"Enabled": true
-		},
-		{
-			"Name": "VirtualHeightfieldMesh",
 			"Enabled": true
 		},
 		{
@@ -1055,7 +995,11 @@
 			"Enabled": true
 		},
 		{
-			"Name": "WmfMedia",
+			"Name": "WindowsDeviceProfileSelector",
+			"Enabled": true
+		},
+		{
+			"Name": "XInputDevice",
 			"Enabled": true
 		},
 		{
@@ -1063,15 +1007,214 @@
 			"Enabled": true
 		},
 		{
-			"Name": "WorldMetrics",
-			"Enabled": true
-		},
-		{
 			"Name": "XRBase",
 			"Enabled": true
 		},
 		{
-			"Name": "NexusModsAuthorTools",
+			"Name": "Simplygon",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "InterchangeTests",
+			"Enabled": true
+		},
+		{
+			"Name": "TraceUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "CameraCalibrationCore",
+			"Enabled": true
+		},
+		{
+			"Name": "CaptureData",
+			"Enabled": true
+		},
+		{
+			"Name": "LensComponent",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLinkCamera",
+			"Enabled": true
+		},
+		{
+			"Name": "Takes",
+			"Enabled": true
+		},
+		{
+			"Name": "WorldMetrics",
+			"Enabled": true
+		},
+		{
+			"Name": "AchievementSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "ActivitiesSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "ClipboardExtension",
+			"Enabled": true
+		},
+		{
+			"Name": "DialogueSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "Flow",
+			"Enabled": true
+		},
+		{
+			"Name": "GamepadLightbarSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "GamepadVibration",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLinkMvnPlugin",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "MayaLiveLink",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "Persistency",
+			"Enabled": true
+		},
+		{
+			"Name": "Population",
+			"Enabled": true
+		},
+		{
+			"Name": "PoseDriverConnect",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelAI",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelAudio",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelBypassing",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelCamera",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelConsoleCrashes",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelDebugService",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelEvaluators",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelFoliage",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelFormation",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelGrid",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelHorse",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelInput",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelLoading",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelLocomotion",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelNavigation",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelPSOCollector",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelPSOUsageMask",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelRoads",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelSaveDatabase",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelSequencerUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelSettings",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelSpatialSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelTableRow",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelToast",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "Quest",
+			"Enabled": true
+		},
+		{
+			"Name": "ReikonTools",
+			"Enabled": true
+		},
+		{
+			"Name": "RuntimeCurvesUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "SPCRJointDynamics",
+			"Enabled": true
+		},
+		{
+			"Name": "SkyCreatorPlugin",
 			"Enabled": true
 		}
 	]

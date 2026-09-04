@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "CCAIActorAttackPayload.h"
@@ -7,7 +7,7 @@
 class URebelAIStub;
 
 USTRUCT(BlueprintType)
-struct DOGWOODCOMBAT_API FCCAIActorHitPayload : public FCCAIActorAttackPayload {
+struct FCCAIActorHitPayload : public FCCAIActorAttackPayload {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -16,6 +16,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FVector ImpactPoint;
     
-    FCCAIActorHitPayload();
+    DOGWOODCOMBAT_API FCCAIActorHitPayload();
 };
 

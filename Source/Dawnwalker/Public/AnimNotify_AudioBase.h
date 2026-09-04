@@ -30,9 +30,6 @@ public:
 
 protected:
     UFUNCTION(BlueprintCallable, BlueprintPure=false)
-    int32 PostVocalizedSoundEffect(URWAudioComponent* Target, UAkAudioEvent* Event) const;
-    
-    UFUNCTION(BlueprintCallable, BlueprintPure=false)
     bool IsVocalizedNotifyAllowed(const USkeletalMeshComponent* MeshComp) const;
     
     UFUNCTION(BlueprintCallable, BlueprintPure)

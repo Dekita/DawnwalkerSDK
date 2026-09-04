@@ -1,9 +1,9 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "DWLeftPoseSettings.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODCOMBAT_API FDWLeftPoseSettings {
+struct FDWLeftPoseSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     uint8 bWantsRightPose: 1;
     
-    FDWLeftPoseSettings();
+    DOGWOODCOMBAT_API FDWLeftPoseSettings();
 };
 

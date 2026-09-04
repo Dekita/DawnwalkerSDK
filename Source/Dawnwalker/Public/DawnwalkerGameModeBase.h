@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "CinematicDefaultPawnProvider.h"
 #include "InventorySystemGamemodeInterface.h"
@@ -11,8 +11,8 @@ class AHUD;
 class APawn;
 class UUserWidget;
 
-UCLASS(Blueprintable, NonTransient)
-class DAWNWALKER_API ADawnwalkerGameModeBase : public AGameModeBase, public ICinematicDefaultPawnProvider, public IInventorySystemGamemodeInterface {
+UCLASS(Blueprintable, MinimalAPI, NonTransient)
+class ADawnwalkerGameModeBase : public AGameModeBase, public ICinematicDefaultPawnProvider, public IInventorySystemGamemodeInterface {
     GENERATED_BODY()
 public:
     DECLARE_DYNAMIC_MULTICAST_DELEGATE(FTriedSprintWhileOverEncumbered);

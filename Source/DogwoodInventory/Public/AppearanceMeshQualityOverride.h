@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "Engine/DataTable.h"
 #include "EAppearanceQualityLevelOverride.h"
@@ -7,7 +7,7 @@
 class USkinnedAsset;
 
 USTRUCT(BlueprintType)
-struct DOGWOODINVENTORY_API FAppearanceMeshQualityOverride : public FTableRowBase {
+struct FAppearanceMeshQualityOverride : public FTableRowBase {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -16,6 +16,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TMap<EAppearanceQualityLevelOverride, TSoftObjectPtr<USkinnedAsset>> ReplacementMeshes;
     
-    FAppearanceMeshQualityOverride();
+    DOGWOODINVENTORY_API FAppearanceMeshQualityOverride();
 };
 

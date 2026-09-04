@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "EInventoryType.h"
 #include "InventoryLevelProvider.generated.h"
 
 UINTERFACE(Blueprintable)
-class DOGWOODINVENTORY_API UInventoryLevelProvider : public UInterface {
+class UInventoryLevelProvider : public UInterface {
     GENERATED_BODY()
 };
 

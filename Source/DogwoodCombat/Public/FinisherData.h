@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "FinisherData.generated.h"
@@ -7,7 +7,7 @@ class UAnimMontage;
 class UGameplayEffect;
 
 USTRUCT(BlueprintType)
-struct DOGWOODCOMBAT_API FFinisherData {
+struct FFinisherData {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -19,6 +19,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSubclassOf<UGameplayEffect> GameplayEffectForInstigator;
     
-    FFinisherData();
+    DOGWOODCOMBAT_API FFinisherData();
 };
 

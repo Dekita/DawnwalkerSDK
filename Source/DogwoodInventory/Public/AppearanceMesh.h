@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "AppearanceMesh.generated.h"
 
@@ -6,7 +6,7 @@ class UMaterialInterface;
 class USkinnedAsset;
 
 USTRUCT(BlueprintType)
-struct DOGWOODINVENTORY_API FAppearanceMesh {
+struct FAppearanceMesh {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -38,6 +38,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<TSoftObjectPtr<UMaterialInterface>> OverrideMaterials;
     
-    FAppearanceMesh();
+    DOGWOODINVENTORY_API FAppearanceMesh();
 };
 

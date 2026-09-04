@@ -19,9 +19,6 @@ public:
     TArray<FText> FeaturedArtists;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TSoftObjectPtr<UAkAudioEvent> AudioEvent;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 duration;
     
     FMusicPlayerEntry();

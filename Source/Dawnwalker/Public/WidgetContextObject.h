@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Object.h"
 #include "DemoWidgetContextParams.h"
@@ -7,7 +7,7 @@
 class UWidgetContextObject;
 
 UCLASS(Blueprintable)
-class DAWNWALKER_API UWidgetContextObject : public UObject {
+class UWidgetContextObject : public UObject {
     GENERATED_BODY()
 public:
     UWidgetContextObject();

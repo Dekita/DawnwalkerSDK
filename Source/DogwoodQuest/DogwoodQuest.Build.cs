@@ -1,4 +1,4 @@
-﻿using UnrealBuildTool;
+using UnrealBuildTool;
 
 public class DogwoodQuest : ModuleRules {
     public DogwoodQuest(ReadOnlyTargetRules Target) : base(Target) {
@@ -7,15 +7,6 @@ public class DogwoodQuest : ModuleRules {
         ShadowVariableWarningLevel = WarningLevel.Warning;
         
         PublicDependencyModuleNames.AddRange(new string[] {
-            "CinematicCamera",
-            "NavigationSystem",
-            "FieldNotification",
-            "GameplayTasks",
-            "MovieScene",
-            "UMG",
-            "UniversalObjectLocator",
-            "Flow",
-            "NodeRuntime",
             "Core",
             "CoreUObject",
             "DeveloperSettings",
@@ -26,6 +17,7 @@ public class DogwoodQuest : ModuleRules {
             "FactsDB",
             "GameplayAbilities",
             "GameplayTags",
+            "NodeRuntime",
             "Paper2D",
             "Persistency",
             "Quest",

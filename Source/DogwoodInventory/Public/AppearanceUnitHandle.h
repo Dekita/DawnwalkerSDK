@@ -1,14 +1,14 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "AppearanceUnitHandle.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODINVENTORY_API FAppearanceUnitHandle {
+struct FAppearanceUnitHandle {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FName RowName;
     
-    FAppearanceUnitHandle();
+    DOGWOODINVENTORY_API FAppearanceUnitHandle();
 };
 

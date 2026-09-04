@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "DismembermentForceParams.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODINVENTORY_API FDismembermentForceParams {
+struct FDismembermentForceParams {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -16,6 +16,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bRelativeToLimb;
     
-    FDismembermentForceParams();
+    DOGWOODINVENTORY_API FDismembermentForceParams();
 };
 

@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "Curves/CurveFloat.h"
 #include "InteriorVolumePostProcessCurve.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODWORLD_API FInteriorVolumePostProcessCurve {
+struct FInteriorVolumePostProcessCurve {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Interp, meta=(AllowPrivateAccess=true))
@@ -61,6 +61,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Interp, meta=(AllowPrivateAccess=true))
     FRuntimeFloatCurve LumenSkylightLeakingCurve;
     
-    FInteriorVolumePostProcessCurve();
+    DOGWOODWORLD_API FInteriorVolumePostProcessCurve();
 };
 

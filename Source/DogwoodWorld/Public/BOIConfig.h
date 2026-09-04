@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "AlphaBlend.h"
 #include "EBOIZoomType.h"
@@ -8,7 +8,7 @@
 class UCurveFloat;
 
 USTRUCT(BlueprintType)
-struct DOGWOODWORLD_API FBOIConfig {
+struct FBOIConfig {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -38,6 +38,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FInvestigationTutorialFlowTags InvestigationTutorialFlowTags;
     
-    FBOIConfig();
+    DOGWOODWORLD_API FBOIConfig();
 };
 

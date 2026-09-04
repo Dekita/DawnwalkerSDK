@@ -11,8 +11,6 @@ UQuestNodePlayVideoWithTransition::UQuestNodePlayVideoWithTransition() {
     this->FadeInTime = 1.00f;
     this->EndTransition = EVideoPlaybackTransitionType::None;
     this->FadeOutTime = 1.00f;
-    this->AudioStartEvent = NULL;
-    this->AudioInterruptStopEvent = NULL;
 }
 
 

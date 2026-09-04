@@ -1,9 +1,9 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "StealableVolumeAffection.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODWORLD_API FStealableVolumeAffection {
+struct FStealableVolumeAffection {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -18,6 +18,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bAllowExtraPoliceSpawning;
     
-    FStealableVolumeAffection();
+    DOGWOODWORLD_API FStealableVolumeAffection();
 };
 

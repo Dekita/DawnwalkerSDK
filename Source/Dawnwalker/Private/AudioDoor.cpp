@@ -1,9 +1,6 @@
 #include "AudioDoor.h"
 
 UAudioDoor::UAudioDoor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
-    this->OpenAudioEvent = NULL;
-    this->CloseAudioEvent = NULL;
-    this->DoorPortal = NULL;
     this->DoorClosedTransmission = 1.00f;
 }
 

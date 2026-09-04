@@ -1,9 +1,9 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "DawnwalkerBoneTraceData.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FDawnwalkerBoneTraceData {
+struct FDawnwalkerBoneTraceData {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -15,6 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bMandatory;
     
-    FDawnwalkerBoneTraceData();
+    DAWNWALKER_API FDawnwalkerBoneTraceData();
 };
 

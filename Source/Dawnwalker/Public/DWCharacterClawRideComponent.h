@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
@@ -138,12 +138,6 @@ protected:
     UNiagaraSystem* SlideParticles;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    UAkAudioEvent* StartRidingSoundEvent;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    UAkAudioEvent* StopRidingSoundEvent;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bShouldFallingFromLedgeStartClawRide;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
@@ -180,7 +174,7 @@ public:
     UFUNCTION(BlueprintCallable)
     void TransitionEnd();
     
-    UFUNCTION()
+    UFUNCTION(BlueprintCallable)
     bool RequestClawRide();
     
 protected:

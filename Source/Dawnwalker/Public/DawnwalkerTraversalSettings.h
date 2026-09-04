@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "DawnwalkerFootTraceData.h"
 #include "DawnwalkerTraversalSettings.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FDawnwalkerTraversalSettings {
+struct FDawnwalkerTraversalSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -16,6 +16,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float SlidingDownDeceleration;
     
-    FDawnwalkerTraversalSettings();
+    DAWNWALKER_API FDawnwalkerTraversalSettings();
 };
 

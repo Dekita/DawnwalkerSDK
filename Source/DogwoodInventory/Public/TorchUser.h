@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "TorchUser.generated.h"
 
 UINTERFACE(Blueprintable)
-class DOGWOODINVENTORY_API UTorchUser : public UInterface {
+class UTorchUser : public UInterface {
     GENERATED_BODY()
 };
 

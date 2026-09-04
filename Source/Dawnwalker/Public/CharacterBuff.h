@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "ActiveGameplayEffectHandle.h"
 #include "GameplayEffectSpec.h"
@@ -8,7 +8,7 @@ class UCharacterBuffCustomTimeProvider;
 class UDogwoodPersistentGEComponent;
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FCharacterBuff {
+struct FCharacterBuff {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
@@ -29,6 +29,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UCharacterBuffCustomTimeProvider* CustomTimeProvider;
     
-    FCharacterBuff();
+    DAWNWALKER_API FCharacterBuff();
 };
 

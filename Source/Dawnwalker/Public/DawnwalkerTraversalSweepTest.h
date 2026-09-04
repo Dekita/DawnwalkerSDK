@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "DawnwalkerTraversalSweepTestLocation.h"
 #include "DawnwalkerTraversalSweepTest.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FDawnwalkerTraversalSweepTest {
+struct FDawnwalkerTraversalSweepTest {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -19,6 +19,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bAllowedStartPenetration;
     
-    FDawnwalkerTraversalSweepTest();
+    DAWNWALKER_API FDawnwalkerTraversalSweepTest();
 };
 

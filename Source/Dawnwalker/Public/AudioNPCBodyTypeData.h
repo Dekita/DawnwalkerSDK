@@ -12,9 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FGameplayTag NPCBodyType;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    UAkSwitchValue* BodyTypeSwitch;
-    
     FAudioNPCBodyTypeData();
 };
 

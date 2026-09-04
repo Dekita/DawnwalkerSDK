@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "ESOIObjectDistance.h"
 #include "InvestigationTutorialFlowTags.h"
 #include "SOIConfig.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODWORLD_API FSOIConfig {
+struct FSOIConfig {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -26,6 +26,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FInvestigationTutorialFlowTags InvestigationTutorialFlowTags;
     
-    FSOIConfig();
+    DOGWOODWORLD_API FSOIConfig();
 };
 

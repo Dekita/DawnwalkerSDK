@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "EDawnwalkerTraversalStateVariable.h"
 #include "DawnwalkerTraversalStateCondition.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FDawnwalkerTraversalStateCondition {
+struct FDawnwalkerTraversalStateCondition {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -14,6 +14,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FFloatRange ValueRange;
     
-    FDawnwalkerTraversalStateCondition();
+    DAWNWALKER_API FDawnwalkerTraversalStateCondition();
 };
 

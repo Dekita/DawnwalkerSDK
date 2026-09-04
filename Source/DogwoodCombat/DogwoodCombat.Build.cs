@@ -1,4 +1,4 @@
-﻿using UnrealBuildTool;
+using UnrealBuildTool;
 
 public class DogwoodCombat : ModuleRules {
     public DogwoodCombat(ReadOnlyTargetRules Target) : base(Target) {
@@ -7,15 +7,6 @@ public class DogwoodCombat : ModuleRules {
         ShadowVariableWarningLevel = WarningLevel.Warning;
         
         PublicDependencyModuleNames.AddRange(new string[] {
-            "CinematicCamera",
-            "NavigationSystem",
-            "FieldNotification",
-            "GameplayTasks",
-            "MovieScene",
-            "UMG",
-            "UniversalObjectLocator",
-            "Flow",
-            "NodeRuntime",
             "AIModule",
             "Core",
             "CoreUObject",
@@ -33,6 +24,7 @@ public class DogwoodCombat : ModuleRules {
             "LevelSequence",
             "MotionWarping",
             "Niagara",
+            "NodeRuntime",
             "Persistency",
             "Population",
             "Quest",

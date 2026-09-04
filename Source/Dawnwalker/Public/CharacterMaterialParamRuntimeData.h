@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "CharacterMaterialParamRuntimeData.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FCharacterMaterialParamRuntimeData {
+struct FCharacterMaterialParamRuntimeData {
     GENERATED_BODY()
 public:
-    FCharacterMaterialParamRuntimeData();
+    DAWNWALKER_API FCharacterMaterialParamRuntimeData();
 };
 

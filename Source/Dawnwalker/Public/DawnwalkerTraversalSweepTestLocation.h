@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "DawnwalkerTraversalSweepTestLocation.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FDawnwalkerTraversalSweepTestLocation {
+struct FDawnwalkerTraversalSweepTestLocation {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -13,6 +13,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bUseTestDirectionAsForwardAxis;
     
-    FDawnwalkerTraversalSweepTestLocation();
+    DAWNWALKER_API FDawnwalkerTraversalSweepTestLocation();
 };
 

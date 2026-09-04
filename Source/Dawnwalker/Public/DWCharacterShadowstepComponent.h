@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "AttackData.h"
 #include "Components/ActorComponent.h"
@@ -132,12 +132,6 @@ private:
     UCombatAction* CounterAction;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    UAkAudioEvent* StartSoundEvent;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    UAkAudioEvent* StopSoundEvent;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSubclassOf<UGameplayEffect> EffectAfterTeleportTransition;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
@@ -159,7 +153,7 @@ public:
     void SetAimingEnabled(bool bInAimingEnabled);
     
 private:
-    UFUNCTION()
+    UFUNCTION(BlueprintCallable)
     void ProgressShadowstep(float Time);
     
     UFUNCTION()

@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Object.h"
 #include "EMappinTarget.h"
@@ -8,7 +8,7 @@
 class UMappinSystemImpl;
 
 UCLASS(Blueprintable)
-class DOGWOODMAP_API UMappinInstanceIterator : public UObject {
+class UMappinInstanceIterator : public UObject {
     GENERATED_BODY()
 public:
     UMappinInstanceIterator();

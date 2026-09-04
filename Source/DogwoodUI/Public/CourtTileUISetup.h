@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "CourtTileUISetup.generated.h"
 
 class UPaperSprite;
 
 USTRUCT(BlueprintType)
-struct DOGWOODUI_API FCourtTileUISetup {
+struct FCourtTileUISetup {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -17,6 +17,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UPaperSprite* HoverFrame;
     
-    FCourtTileUISetup();
+    DOGWOODUI_API FCourtTileUISetup();
 };
 

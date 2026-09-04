@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "Subsystems/WorldSubsystem.h"
 #include "EPilloryTeleportResult.h"
@@ -20,7 +20,7 @@ private:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UCinematicDialogue* ImprisonedDialogueInstance;
     
-    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TMap<UDataTable*, UPoliceSquadCommunityEntryProvider*> RegisteredPoliceSquads;
     
     UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))

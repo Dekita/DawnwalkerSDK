@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "StatsForLevel.h"
 #include "PlayerStatsForLevel.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODSTATS_API FPlayerStatsForLevel : public FStatsForLevel {
+struct FPlayerStatsForLevel : public FStatsForLevel {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -64,6 +64,6 @@ public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))
     float FollowersBaseDamage;
     
-    FPlayerStatsForLevel();
+    DOGWOODSTATS_API FPlayerStatsForLevel();
 };
 

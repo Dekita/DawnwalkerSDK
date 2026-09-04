@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "QuestConditionItemFilter.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FQuestConditionItemFilter {
+struct FQuestConditionItemFilter {
     GENERATED_BODY()
 public:
-    FQuestConditionItemFilter();
+    DAWNWALKER_API FQuestConditionItemFilter();
 };
 

@@ -1,9 +1,9 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "SplineTrailData.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FSplineTrailData {
+struct FSplineTrailData {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -15,6 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 DecalPresetIndex;
     
-    FSplineTrailData();
+    DAWNWALKER_API FSplineTrailData();
 };
 

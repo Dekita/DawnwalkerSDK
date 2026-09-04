@@ -23,13 +23,7 @@ protected:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UAudioComponent* AmbientComponent;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TMap<EAudioFadeState, UAkAudioEvent*> AudioFadeEventCache;
-    
 private:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    UAkAudioEvent* LastDevelopmentVideoEvent;
-    
 public:
     UAudioSystemImpl();
 

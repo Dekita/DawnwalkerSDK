@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "FallAnimationSet.generated.h"
@@ -7,7 +7,7 @@ class UAnimMontage;
 class URebelLocomotionConditionSet;
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FFallAnimationSet {
+struct FFallAnimationSet {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -19,6 +19,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<UAnimMontage*> Animations;
     
-    FFallAnimationSet();
+    DAWNWALKER_API FFallAnimationSet();
 };
 

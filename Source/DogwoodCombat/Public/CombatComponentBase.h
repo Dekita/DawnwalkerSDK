@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
@@ -489,7 +489,7 @@ protected:
     FName GetSocketNameForSlot(EWeaponSlot InSlot);
     
 public:
-    UFUNCTION()
+    UFUNCTION(BlueprintCallable, BlueprintPure)
     bool GetRootMotionScalingEnabled() const;
     
     UFUNCTION()
@@ -540,7 +540,7 @@ public:
     UFUNCTION(BlueprintCallable, BlueprintPure)
     ACharacter* GetCharacter() const;
     
-    UFUNCTION()
+    UFUNCTION(BlueprintCallable, BlueprintNativeEvent, BlueprintPure)
     UCapsuleComponent* GetCapsuleComponent() const;
     
     UFUNCTION()

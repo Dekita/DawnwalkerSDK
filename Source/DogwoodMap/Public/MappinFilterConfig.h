@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "MappinFilterConfig.generated.h"
 
 class UMappinFilter;
 
 USTRUCT(BlueprintType)
-struct DOGWOODMAP_API FMappinFilterConfig {
+struct FMappinFilterConfig {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -14,6 +14,6 @@ public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSoftClassPtr<UMappinFilter> Filter;
     
-    FMappinFilterConfig();
+    DOGWOODMAP_API FMappinFilterConfig();
 };
 

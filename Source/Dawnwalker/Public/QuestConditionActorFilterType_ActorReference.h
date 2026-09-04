@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "ActorReference.h"
 #include "QuestConditionActorFilterType.h"
 #include "QuestConditionActorFilterType_ActorReference.generated.h"
 
 UCLASS(Blueprintable, CollapseCategories, EditInlineNew)
-class DAWNWALKER_API UQuestConditionActorFilterType_ActorReference : public UQuestConditionActorFilterType {
+class UQuestConditionActorFilterType_ActorReference : public UQuestConditionActorFilterType {
     GENERATED_BODY()
 public:
 protected:

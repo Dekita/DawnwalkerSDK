@@ -23,13 +23,12 @@ public:
 
     UFUNCTION(BlueprintCallable, BlueprintPure)
     FName GetCreatureType() const;
-
+    
 
     // Fix for true pure virtual functions not being implemented
     UFUNCTION(BlueprintCallable)
     bool IsBossCharacter() const override PURE_VIRTUAL(IsBossCharacter, return false;);
 
-    // IAbilitySystemInterface: real implementation unknown, but this class already holds the component, so return it.
     virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override { return AbilitySystemComponent; }
 
 };

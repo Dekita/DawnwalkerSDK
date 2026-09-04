@@ -1,12 +1,12 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "InvestigationWindowInterface.generated.h"
 
 class UInvestigationComponent;
 
-UINTERFACE(Blueprintable)
-class DOGWOODWORLD_API UInvestigationWindowInterface : public UInterface {
+UINTERFACE(Blueprintable, MinimalAPI)
+class UInvestigationWindowInterface : public UInterface {
     GENERATED_BODY()
 };
 

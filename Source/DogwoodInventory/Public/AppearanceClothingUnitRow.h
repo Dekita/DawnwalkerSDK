@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "Engine/DataTable.h"
 #include "AppearanceMesh.h"
@@ -9,7 +9,7 @@ class UAkSwitchValue;
 class UItemClothingDataAsset;
 
 USTRUCT(BlueprintType)
-struct DOGWOODINVENTORY_API FAppearanceClothingUnitRow : public FTableRowBase {
+struct FAppearanceClothingUnitRow : public FTableRowBase {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -21,12 +21,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UItemClothingDataAsset* Item;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    UAkSwitchValue* AudioSwitch;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TArray<UAkSwitchValue*> AdditionalAudioSwitches;
-    
-    FAppearanceClothingUnitRow();
+    DOGWOODINVENTORY_API FAppearanceClothingUnitRow();
 };
 

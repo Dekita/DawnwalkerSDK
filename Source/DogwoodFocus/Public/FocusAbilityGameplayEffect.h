@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "EItemWeaponSubtype.h"
 #include "CreatureTypeContainer.h"
@@ -15,7 +15,7 @@ class UGameplayEffect;
 class UItemBaseDataAsset;
 
 USTRUCT(BlueprintType)
-struct DOGWOODFOCUS_API FFocusAbilityGameplayEffect {
+struct FFocusAbilityGameplayEffect {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -84,6 +84,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     EGenericAAEffectType EffectNotAppliesDescriptionType;
     
-    FFocusAbilityGameplayEffect();
+    DOGWOODFOCUS_API FFocusAbilityGameplayEffect();
 };
 

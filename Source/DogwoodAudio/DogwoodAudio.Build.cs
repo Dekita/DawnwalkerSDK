@@ -7,13 +7,11 @@ public class DogwoodAudio : ModuleRules {
         ShadowVariableWarningLevel = WarningLevel.Warning;
         
         PublicDependencyModuleNames.AddRange(new string[] {
-            "AkAudio",
             "Core",
             "CoreUObject",
             "DeveloperSettings",
             "DialogueSystem",
             "Engine",
-            "ErrantBiomesRuntime",
             "GameplayTags",
             "MediaAssets",
             "Persistency",

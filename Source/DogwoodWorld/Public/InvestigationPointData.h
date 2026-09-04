@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "AlphaBlend.h"
@@ -9,7 +9,7 @@
 class UInvestigationWidgetComponent;
 
 USTRUCT(BlueprintType)
-struct DOGWOODWORLD_API FInvestigationPointData {
+struct FInvestigationPointData {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -42,6 +42,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UInvestigationWidgetComponent* SpawnedWidgetComponent;
     
-    FInvestigationPointData();
+    DOGWOODWORLD_API FInvestigationPointData();
 };
 

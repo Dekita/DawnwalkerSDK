@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "ScaleNotifyData.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODFOCUS_API FScaleNotifyData {
+struct FScaleNotifyData {
     GENERATED_BODY()
 public:
-    FScaleNotifyData();
+    DOGWOODFOCUS_API FScaleNotifyData();
 };
 

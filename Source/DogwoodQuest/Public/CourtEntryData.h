@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "ECourtEntryType.h"
 #include "CourtEntryData.generated.h"
@@ -6,7 +6,7 @@
 class UCourtEntry;
 
 USTRUCT(BlueprintType)
-struct DOGWOODQUEST_API FCourtEntryData {
+struct FCourtEntryData {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -15,6 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UCourtEntry* LoadedEntry;
     
-    FCourtEntryData();
+    DOGWOODQUEST_API FCourtEntryData();
 };
 

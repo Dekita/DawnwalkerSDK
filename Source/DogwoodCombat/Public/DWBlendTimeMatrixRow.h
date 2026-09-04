@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "Engine/DataTable.h"
 #include "DWBlendTimeMatrixRow.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODCOMBAT_API FDWBlendTimeMatrixRow : public FTableRowBase {
+struct FDWBlendTimeMatrixRow : public FTableRowBase {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -46,6 +46,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float ShadowDodge;
     
-    FDWBlendTimeMatrixRow();
+    DOGWOODCOMBAT_API FDWBlendTimeMatrixRow();
 };
 

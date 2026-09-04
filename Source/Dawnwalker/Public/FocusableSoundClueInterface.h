@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "FocusableSoundClueInterface.generated.h"
 
 UINTERFACE(Blueprintable)
-class DAWNWALKER_API UFocusableSoundClueInterface : public UInterface {
+class UFocusableSoundClueInterface : public UInterface {
     GENERATED_BODY()
 };
 

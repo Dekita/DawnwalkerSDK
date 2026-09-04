@@ -55,9 +55,6 @@ protected:
     USkeletalMeshComponent* FeetMesh;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
-    UJaliAnimationComponent* JaliAnimation;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UAudioCharacterFoleyComponent* AudioCharacterFoleyComponent;
     
 public:

@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintAsyncActionBase.h"
 #include "PetDataLatentAction.generated.h"
@@ -10,7 +10,7 @@ class UObject;
 class UPetDataLatentAction;
 
 UCLASS(Blueprintable)
-class DAWNWALKER_API UPetDataLatentAction : public UBlueprintAsyncActionBase {
+class UPetDataLatentAction : public UBlueprintAsyncActionBase {
     GENERATED_BODY()
 public:
     DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FOnPetDataLoaded, bool, bSuccess, UAnimMontage*, PlayerMontage, UAnimMontage*, PetMontage);

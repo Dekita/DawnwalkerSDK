@@ -15,24 +15,9 @@ class DAWNWALKER_API UAudioCharacterBaseComponent : public UAudioCharacterCommon
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TSoftObjectPtr<UAkRtpc> CharacterSpeedRTPC;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TSoftObjectPtr<UAkRtpc> CharacterAltitudeRTPC;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bProvideAltitudeAsGlobalRtpc;
     
 protected:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    UAkRtpc* CharacterSpeedRTPCPtr;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    UAkRtpc* CharacterAltitudeRTPCPtr;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    UAkSwitchValue* NPCVoiceSwitch;
-    
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     ADawnwalkerCharacterBase* OwnerCasted;
     
@@ -41,9 +26,6 @@ protected:
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     URebelAINPCSoundConfig* DefaultSoundConfig;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TArray<UAkAudioEvent*> CachedNPCAISoundConfigEvents;
     
 public:
     UAudioCharacterBaseComponent(const FObjectInitializer& ObjectInitializer);

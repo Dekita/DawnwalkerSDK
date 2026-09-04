@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "GameplayTagContainer.h"
 #include "SkillBookLootEntry.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODINVENTORY_API FSkillBookLootEntry {
+struct FSkillBookLootEntry {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -31,6 +31,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 SelectionWeightTierLocked;
     
-    FSkillBookLootEntry();
+    DOGWOODINVENTORY_API FSkillBookLootEntry();
 };
 

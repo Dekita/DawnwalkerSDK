@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "GameplayTagContainer.h"
 #include "AttackData.h"
@@ -8,7 +8,7 @@ class AWeaponBase;
 class URebelAIStub;
 
 USTRUCT(BlueprintType)
-struct DOGWOODCOMBAT_API FCCAIActorAttackPayload {
+struct FCCAIActorAttackPayload {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -23,6 +23,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FGameplayTag AttackType;
     
-    FCCAIActorAttackPayload();
+    DOGWOODCOMBAT_API FCCAIActorAttackPayload();
 };
 

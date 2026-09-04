@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "Engine/DataTable.h"
@@ -7,7 +7,7 @@
 class UInputAction;
 
 UINTERFACE(Blueprintable)
-class DOGWOODUI_API UNotificationActionWidget : public UInterface {
+class UNotificationActionWidget : public UInterface {
     GENERATED_BODY()
 };
 

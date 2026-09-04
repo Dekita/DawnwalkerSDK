@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "EUIAudioCategory.h"
 #include "QuantityDialogDescriptor.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODUI_API FQuantityDialogDescriptor {
+struct FQuantityDialogDescriptor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -22,6 +22,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     EUIAudioCategory PopupContext;
     
-    FQuantityDialogDescriptor();
+    DOGWOODUI_API FQuantityDialogDescriptor();
 };
 

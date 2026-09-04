@@ -1,9 +1,9 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "CharacterMaterialRequestData.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FCharacterMaterialRequestData {
+struct FCharacterMaterialRequestData {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -15,6 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float IncreaseDuration;
     
-    FCharacterMaterialRequestData();
+    DAWNWALKER_API FCharacterMaterialRequestData();
 };
 

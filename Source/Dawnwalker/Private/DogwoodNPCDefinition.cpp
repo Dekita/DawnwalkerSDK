@@ -15,7 +15,6 @@ UDogwoodNPCDefinition::UDogwoodNPCDefinition() {
     this->OffenseBehaviorTree = NULL;
     this->bEnableReactionsVO = true;
     this->bRandomizedChatter = true;
-    this->RWAudioPreset = NULL;
     this->FaceDefaultAnimLayer = NULL;
     this->FaceAnimLayer = NULL;
     this->GameplayFaceAnimLayer = NULL;

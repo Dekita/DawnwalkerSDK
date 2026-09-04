@@ -1,12 +1,12 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "StaminaCostValue.h"
 #include "SwordAttackStaminaCostValue.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODCOMBAT_API FSwordAttackStaminaCostValue : public FStaminaCostValue {
+struct FSwordAttackStaminaCostValue : public FStaminaCostValue {
     GENERATED_BODY()
 public:
-    FSwordAttackStaminaCostValue();
+    DOGWOODCOMBAT_API FSwordAttackStaminaCostValue();
 };
 

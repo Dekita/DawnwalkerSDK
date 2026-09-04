@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "ActionPrompt.generated.h"
 
 class UInputAction;
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FActionPrompt {
+struct FActionPrompt {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -14,6 +14,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 DirectionMask;
     
-    FActionPrompt();
+    DAWNWALKER_API FActionPrompt();
 };
 

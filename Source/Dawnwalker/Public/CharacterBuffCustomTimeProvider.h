@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "GameplayEffectComponent.h"
 #include "GameplayEffectSpec.h"
 #include "CharacterBuffCustomTimeProvider.generated.h"
 
 UCLASS(Blueprintable, CollapseCategories, EditInlineNew)
-class DAWNWALKER_API UCharacterBuffCustomTimeProvider : public UGameplayEffectComponent {
+class UCharacterBuffCustomTimeProvider : public UGameplayEffectComponent {
     GENERATED_BODY()
 public:
     UCharacterBuffCustomTimeProvider();

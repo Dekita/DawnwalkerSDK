@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "Engine/DataTable.h"
@@ -8,7 +8,7 @@
 #include "MapLabelRow.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODMAP_API FMapLabelRow : public FTableRowBase {
+struct FMapLabelRow : public FTableRowBase {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -26,6 +26,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FDataTableRowHandle Region;
     
-    FMapLabelRow();
+    DOGWOODMAP_API FMapLabelRow();
 };
 

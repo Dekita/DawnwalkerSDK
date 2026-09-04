@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "InteriorVolumeData.h"
@@ -77,7 +77,7 @@ public:
     UFUNCTION(BlueprintCallable)
     bool RequestVaultingTraversal();
     
-    UFUNCTION()
+    UFUNCTION(BlueprintCallable)
     bool RequestClimbingTraversal();
     
 protected:

@@ -1,0 +1,48 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Quest",
+	"Description": "Quest System",
+	"Category": "Gameplay",
+	"CreatedBy": "Reikon Games Sp. z o.o.",
+	"CreatedByURL": "http://reikongames.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Quest",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "AssetManagerEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "ReikonTools",
+			"Enabled": true
+		},
+		{
+			"Name": "NetImgui",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "RebelUtils",
+			"Enabled": true
+		}
+	]
+}

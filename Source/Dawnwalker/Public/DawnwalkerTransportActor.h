@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
@@ -113,7 +113,7 @@ public:
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool IsDefeated();
     
-    UFUNCTION()
+    UFUNCTION(BlueprintCallable, BlueprintPure)
     bool IsActive();
     
     UFUNCTION()

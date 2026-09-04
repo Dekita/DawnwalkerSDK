@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "ForcedFadeWidgetInterface.generated.h"
 
 UINTERFACE(Blueprintable)
-class DAWNWALKER_API UForcedFadeWidgetInterface : public UInterface {
+class UForcedFadeWidgetInterface : public UInterface {
     GENERATED_BODY()
 };
 

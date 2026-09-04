@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "QuestNodeActionBase.h"
 #include "QuestNodeUnlockAchievement.generated.h"
 
 UCLASS(Blueprintable)
-class DAWNWALKER_API UQuestNodeUnlockAchievement : public UQuestNodeActionBase {
+class UQuestNodeUnlockAchievement : public UQuestNodeActionBase {
     GENERATED_BODY()
 public:
 protected:

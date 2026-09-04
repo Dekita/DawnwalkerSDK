@@ -296,7 +296,7 @@ ACharacter* UCombatComponentBase::GetCharacter() const {
     return NULL;
 }
 
-UCapsuleComponent* UCombatComponentBase::GetCapsuleComponent() const {
+UCapsuleComponent* UCombatComponentBase::GetCapsuleComponent_Implementation() const {
     return NULL;
 }
 

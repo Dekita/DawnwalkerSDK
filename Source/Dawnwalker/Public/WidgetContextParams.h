@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "WidgetContextParams.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FWidgetContextParams {
+struct FWidgetContextParams {
     GENERATED_BODY()
 public:
-    FWidgetContextParams();
+    DAWNWALKER_API FWidgetContextParams();
 };
 

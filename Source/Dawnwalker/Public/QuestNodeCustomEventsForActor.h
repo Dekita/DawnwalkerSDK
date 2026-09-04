@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "ActorReference.h"
 #include "QuestNodeWaitingBase.h"
 #include "QuestNodeCustomEventsForActor.generated.h"
 
 UCLASS(Blueprintable)
-class DAWNWALKER_API UQuestNodeCustomEventsForActor : public UQuestNodeWaitingBase {
+class UQuestNodeCustomEventsForActor : public UQuestNodeWaitingBase {
     GENERATED_BODY()
 public:
 private:

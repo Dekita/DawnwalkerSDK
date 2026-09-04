@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "GameplayTagContainer.h"
 #include "CCAIActorGuardChangedPayload.generated.h"
@@ -7,7 +7,7 @@ class UCombatComponentBase;
 class URebelAIStub;
 
 USTRUCT(BlueprintType)
-struct DOGWOODCOMBAT_API FCCAIActorGuardChangedPayload {
+struct FCCAIActorGuardChangedPayload {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -19,6 +19,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FGameplayTagContainer BlockDirections;
     
-    FCCAIActorGuardChangedPayload();
+    DOGWOODCOMBAT_API FCCAIActorGuardChangedPayload();
 };
 

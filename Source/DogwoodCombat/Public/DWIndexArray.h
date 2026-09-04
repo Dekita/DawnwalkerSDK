@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "DWIndexArray.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODCOMBAT_API FDWIndexArray {
+struct FDWIndexArray {
     GENERATED_BODY()
 public:
-    FDWIndexArray();
+    DOGWOODCOMBAT_API FDWIndexArray();
 };
 

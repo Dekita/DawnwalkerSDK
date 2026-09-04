@@ -1,16 +1,16 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "MappinConfigState.generated.h"
 
 class UPaperSprite;
 
 USTRUCT(BlueprintType)
-struct DOGWOODMAP_API FMappinConfigState {
+struct FMappinConfigState {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UPaperSprite* Icon;
     
-    FMappinConfigState();
+    DOGWOODMAP_API FMappinConfigState();
 };
 

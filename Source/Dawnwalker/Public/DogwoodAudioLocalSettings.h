@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "Engine/DeveloperSettings.h"
 #include "DogwoodAudioLocalSettings.generated.h"
@@ -7,7 +7,7 @@ class UCommunityNPCDefinitionBase;
 class UDogwoodAudioLocalSettings;
 
 UCLASS(Blueprintable, Config=EditorPerProjectUserSettings)
-class DAWNWALKER_API UDogwoodAudioLocalSettings : public UDeveloperSettings {
+class UDogwoodAudioLocalSettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))

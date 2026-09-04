@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "GameplayTagContainer.h"
 #include "QuestOwnerInfo.h"
 #include "EncounterQuestOwnerInfo.generated.h"
 
 UCLASS(Blueprintable)
-class DOGWOODQUEST_API UEncounterQuestOwnerInfo : public UQuestOwnerInfo {
+class UEncounterQuestOwnerInfo : public UQuestOwnerInfo {
     GENERATED_BODY()
 public:
 protected:

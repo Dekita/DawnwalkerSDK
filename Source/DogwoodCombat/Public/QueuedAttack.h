@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "GameplayTagContainer.h"
 #include "QueuedAttack.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODCOMBAT_API FQueuedAttack {
+struct FQueuedAttack {
     GENERATED_BODY()
 public:
     UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -13,6 +13,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FGameplayTagContainer GameplayTags;
     
-    FQueuedAttack();
+    DOGWOODCOMBAT_API FQueuedAttack();
 };
 

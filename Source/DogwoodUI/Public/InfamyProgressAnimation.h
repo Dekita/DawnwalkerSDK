@@ -1,12 +1,12 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "InfamyNotificationAnimation.h"
 #include "InfamyProgressAnimation.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODUI_API FInfamyProgressAnimation : public FInfamyNotificationAnimation {
+struct FInfamyProgressAnimation : public FInfamyNotificationAnimation {
     GENERATED_BODY()
 public:
-    FInfamyProgressAnimation();
+    DOGWOODUI_API FInfamyProgressAnimation();
 };
 

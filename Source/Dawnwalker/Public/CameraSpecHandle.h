@@ -1,9 +1,9 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "CameraSpecHandle.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FCameraSpecHandle {
+struct FCameraSpecHandle {
     GENERATED_BODY()
 public:
 private:
@@ -11,6 +11,6 @@ private:
     int32 Handle;
     
 public:
-    FCameraSpecHandle();
+    DAWNWALKER_API FCameraSpecHandle();
 };
 

@@ -7,6 +7,5 @@ FUiAudioConnection::FUiAudioConnection() {
     this->WidgetContext = EUIAudioWidgetContext::None;
     this->ItemMaterialSound = EItemMaterialType::None;
     this->AbilitySound = EAbilityCategory::None;
-    this->AudioEvent = NULL;
 }
 

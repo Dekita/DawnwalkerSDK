@@ -36,14 +36,11 @@ public:
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool GetIsExpanded() const;
+    
 
-protected:
-    // INamedSlotInterface: real implementation unknown, but this class's own two named slots are known from its members.
-    virtual void GetSlotNames(TArray<FName>& SlotNames) const override { SlotNames.Add(TEXT("HeaderContent")); SlotNames.Add(TEXT("BodyContent")); }
-    virtual UWidget* GetContentForSlot(FName SlotName) const override { return SlotName == TEXT("HeaderContent") ? HeaderContent : (SlotName == TEXT("BodyContent") ? BodyContent : nullptr); }
-    virtual void SetContentForSlot(FName SlotName, UWidget* Content) override {
-        if (SlotName == TEXT("HeaderContent")) { HeaderContent = Content; }
-        else if (SlotName == TEXT("BodyContent")) { BodyContent = Content; }
-    }
+    // Fix for true pure virtual functions not being implemented
+    virtual void GetSlotNames(TArray<FName>& SlotNames) const override {}
+    virtual UWidget* GetContentForSlot(FName SlotName) const override { return nullptr; }
+    virtual void SetContentForSlot(FName SlotName, UWidget* Content) override {}
 };
 

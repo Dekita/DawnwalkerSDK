@@ -5,8 +5,6 @@ ANecrospeakNPC::ANecrospeakNPC(const FObjectInitializer& ObjectInitializer) : Su
     this->NecrospeakVFX = NULL;
     this->SpawnedNecrospeakVFX = NULL;
     this->CurrentState = ENecrospeakState::Disabled;
-    this->NecrospeakEnableSFX = NULL;
-    this->NecrospeakDisableSFX = NULL;
 }
 
 UNiagaraComponent* ANecrospeakNPC::SpawnNecrospeakVFX_Implementation() {

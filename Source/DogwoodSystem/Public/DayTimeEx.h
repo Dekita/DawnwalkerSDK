@@ -1,9 +1,9 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "DayTimeEx.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODSYSTEM_API FDayTimeEx {
+struct FDayTimeEx {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -18,6 +18,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     uint8 Second;
     
-    FDayTimeEx();
+    DOGWOODSYSTEM_API FDayTimeEx();
 };
 

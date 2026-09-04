@@ -1,9 +1,9 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "EffectUIData.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODFOCUS_API FEffectUIData {
+struct FEffectUIData {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bDoesEffectApply;
     
-    FEffectUIData();
+    DOGWOODFOCUS_API FEffectUIData();
 };
 

@@ -1,9 +1,9 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "RebelGeomLedgeWallParams.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FRebelGeomLedgeWallParams {
+struct FRebelGeomLedgeWallParams {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -39,6 +39,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float LedgeTestMaxDeltaDistance;
     
-    FRebelGeomLedgeWallParams();
+    DAWNWALKER_API FRebelGeomLedgeWallParams();
 };
 

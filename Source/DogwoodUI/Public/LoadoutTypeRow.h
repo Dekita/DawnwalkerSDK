@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "EDayPhase.h"
 #include "Engine/DataTable.h"
@@ -7,7 +7,7 @@
 class UPaperSprite;
 
 USTRUCT(BlueprintType)
-struct DOGWOODUI_API FLoadoutTypeRow : public FTableRowBase {
+struct FLoadoutTypeRow : public FTableRowBase {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -22,6 +22,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSoftObjectPtr<UPaperSprite> LoadoutIconSprite;
     
-    FLoadoutTypeRow();
+    DOGWOODUI_API FLoadoutTypeRow();
 };
 

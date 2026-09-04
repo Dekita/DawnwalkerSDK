@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "BodyGroom.generated.h"
 
@@ -6,7 +6,7 @@ class UGroomAsset;
 class UGroomBindingAsset;
 
 USTRUCT(BlueprintType)
-struct DOGWOODINVENTORY_API FBodyGroom {
+struct FBodyGroom {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -15,6 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSoftObjectPtr<UGroomBindingAsset> Binding;
     
-    FBodyGroom();
+    DOGWOODINVENTORY_API FBodyGroom();
 };
 

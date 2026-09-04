@@ -33,12 +33,6 @@ private:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FGameplayTag BiomeMusicState;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    UAkAudioEvent* InitializationEventCache;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TSoftObjectPtr<UAkAudioEvent> SoftInitializationEventCached;
-    
 public:
     UAudioMusicSubsystem();
 
@@ -55,9 +49,6 @@ public:
     void PushExplicitMusicState(FGameplayTag MusicState);
     
     UFUNCTION(BlueprintCallable)
-    void PostMusicEvent(TSoftObjectPtr<UAkAudioEvent> Event, bool IsInitializationEvent);
-    
-    UFUNCTION(BlueprintCallable)
     FGameplayTag PopExplicitMusicState();
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
@@ -71,9 +62,6 @@ public:
     
     UFUNCTION(BlueprintCallable)
     bool IsMainCharacterInMusicRelevantVolume(FGameplayTag VolumeTag);
-    
-    UFUNCTION(BlueprintCallable)
-    UAkStateValue* GetMusicStateByCombatFaction(FGameplayTag FactionId, FGameplayTag NPCMusicOverride);
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     FGameplayTag GetMacroMusicState() const;

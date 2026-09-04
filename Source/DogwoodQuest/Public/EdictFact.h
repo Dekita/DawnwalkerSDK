@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "GameplayTagContainer.h"
 #include "EdictFact.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODQUEST_API FEdictFact {
+struct FEdictFact {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -13,6 +13,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 Value;
     
-    FEdictFact();
+    DOGWOODQUEST_API FEdictFact();
 };
 

@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "Animation/AnimNotifies/AnimNotify.h"
 #include "AbilityTask.h"
@@ -45,7 +45,7 @@ private:
 public:
     UDogwoodAbilityTask_PlaySyncedMontages();
 
-    UFUNCTION()
+    UFUNCTION(BlueprintCallable)
     static UDogwoodAbilityTask_PlaySyncedMontages* PlaySyncedMontages(UGameplayAbility* OwningAbility, FName TaskInstanceName, UAnimMontage* InOwnerMontage, ACharacter* InTargetCharacter, UAnimMontage* InTargetMontage, float Rate, bool bStopWhenAbilityEnds, bool bInstantSync, int32 SectionNumber);
     
 protected:

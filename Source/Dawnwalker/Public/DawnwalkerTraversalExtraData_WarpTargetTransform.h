@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "DawnwalkerTraversalExtraData.h"
 #include "DawnwalkerTraversalExtraData_WarpTargetTransform.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FDawnwalkerTraversalExtraData_WarpTargetTransform : public FDawnwalkerTraversalExtraData {
+struct FDawnwalkerTraversalExtraData_WarpTargetTransform : public FDawnwalkerTraversalExtraData {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -20,6 +20,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bWalkableFloor;
     
-    FDawnwalkerTraversalExtraData_WarpTargetTransform();
+    DAWNWALKER_API FDawnwalkerTraversalExtraData_WarpTargetTransform();
 };
 

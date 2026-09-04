@@ -15,9 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSoftObjectPtr<UAudioMusicDataAsset> AudioMusicDataAsset;
     
-    UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TMap<TSoftObjectPtr<UMediaSource>, TSoftObjectPtr<UAkAudioEvent>> CharacterDevelopmentVideoSounds;
-    
     UDogwoodAudioSettings();
 
     UFUNCTION(BlueprintCallable, BlueprintPure)

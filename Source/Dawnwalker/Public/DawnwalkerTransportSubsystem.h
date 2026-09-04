@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "Subsystems/WorldSubsystem.h"
@@ -28,6 +28,7 @@ private:
 public:
     UDawnwalkerTransportSubsystem();
 
+    UFUNCTION()
     FOnTransportUnregistered GetOnTransportUnregistered();
     
     UFUNCTION()

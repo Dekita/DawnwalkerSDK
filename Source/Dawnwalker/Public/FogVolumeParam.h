@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "FogVolumeParam.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FFogVolumeParam {
+struct FFogVolumeParam {
     GENERATED_BODY()
 public:
-    FFogVolumeParam();
+    DAWNWALKER_API FFogVolumeParam();
 };
 

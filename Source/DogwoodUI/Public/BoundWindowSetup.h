@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "Engine/DataTable.h"
 #include "GameplayTagContainer.h"
@@ -7,7 +7,7 @@
 class UDWActivatableWidget;
 
 USTRUCT(BlueprintType)
-struct DOGWOODUI_API FBoundWindowSetup {
+struct FBoundWindowSetup {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -22,6 +22,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSoftClassPtr<UDWActivatableWidget> WindowClass;
     
-    FBoundWindowSetup();
+    DOGWOODUI_API FBoundWindowSetup();
 };
 

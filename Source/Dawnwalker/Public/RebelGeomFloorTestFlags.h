@@ -1,9 +1,9 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "RebelGeomFloorTestFlags.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FRebelGeomFloorTestFlags {
+struct FRebelGeomFloorTestFlags {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     uint8 bSlopeUpTest: 1;
     
-    FRebelGeomFloorTestFlags();
+    DAWNWALKER_API FRebelGeomFloorTestFlags();
 };
 

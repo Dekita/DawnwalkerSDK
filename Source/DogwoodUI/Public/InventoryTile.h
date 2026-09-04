@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "InventoryTile.generated.h"
@@ -6,7 +6,7 @@
 class UInventoryUIListItem;
 
 UINTERFACE(Blueprintable)
-class DOGWOODUI_API UInventoryTile : public UInterface {
+class UInventoryTile : public UInterface {
     GENERATED_BODY()
 };
 

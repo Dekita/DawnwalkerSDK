@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
@@ -6,7 +6,7 @@
 #include "DismembermentBox.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODCOMBAT_API FDismembermentBox {
+struct FDismembermentBox {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -24,6 +24,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FRotator LimbSpawnRotationOffset;
     
-    FDismembermentBox();
+    DOGWOODCOMBAT_API FDismembermentBox();
 };
 

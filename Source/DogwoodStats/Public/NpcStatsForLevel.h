@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "StatsForLevel.h"
 #include "NpcStatsForLevel.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODSTATS_API FNpcStatsForLevel : public FStatsForLevel {
+struct FNpcStatsForLevel : public FStatsForLevel {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -28,6 +28,6 @@ public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))
     float MagicShieldStaminaDamagePercent;
     
-    FNpcStatsForLevel();
+    DOGWOODSTATS_API FNpcStatsForLevel();
 };
 

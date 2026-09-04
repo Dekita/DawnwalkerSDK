@@ -1,0 +1,59 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1",
+	"FriendlyName": "Population",
+	"Description": "This plugin adds systems related to advanced NPC spawn and management in an open world environment.",
+	"Category": "Other",
+	"CreatedBy": "Rebel Wolves",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Population",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "StructUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelGrid",
+			"Enabled": true
+		},
+		{
+			"Name": "Persistency",
+			"Enabled": true
+		},
+		{
+			"Name": "NetImgui",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "RebelSpatialSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
+		},
+		{
+			"Name": "RebelLoading",
+			"Enabled": true
+		}
+	]
+}

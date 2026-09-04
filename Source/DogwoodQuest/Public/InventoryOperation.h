@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "EInventoryOperationType.h"
 #include "InventoryOperation.generated.h"
@@ -6,7 +6,7 @@
 class UItemBaseDataAsset;
 
 USTRUCT(BlueprintType)
-struct DOGWOODQUEST_API FInventoryOperation {
+struct FInventoryOperation {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -21,6 +21,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bMarkItemAsNew;
     
-    FInventoryOperation();
+    DOGWOODQUEST_API FInventoryOperation();
 };
 

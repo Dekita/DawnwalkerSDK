@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "Engine/DataTable.h"
@@ -8,7 +8,7 @@
 #include "MappinConfigRow.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODMAP_API FMappinConfigRow : public FTableRowBase {
+struct FMappinConfigRow : public FTableRowBase {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -50,6 +50,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FText LongDescription;
     
-    FMappinConfigRow();
+    DOGWOODMAP_API FMappinConfigRow();
 };
 

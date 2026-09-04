@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "GameplayTagContainer.h"
 #include "DashboardTabInfo.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODUI_API FDashboardTabInfo {
+struct FDashboardTabInfo {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -13,6 +13,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FText TabTitle;
     
-    FDashboardTabInfo();
+    DOGWOODUI_API FDashboardTabInfo();
 };
 

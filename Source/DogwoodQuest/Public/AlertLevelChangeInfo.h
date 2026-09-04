@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "GameplayTagContainer.h"
 #include "ECourtEntryPowerState.h"
 #include "AlertLevelChangeInfo.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODQUEST_API FAlertLevelChangeInfo {
+struct FAlertLevelChangeInfo {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -26,6 +26,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     ECourtEntryPowerState PreviousPowerState;
     
-    FAlertLevelChangeInfo();
+    DOGWOODQUEST_API FAlertLevelChangeInfo();
 };
 

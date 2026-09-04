@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "ShadowstepCameraBlendSettings.generated.h"
@@ -6,7 +6,7 @@
 class URebelCameraMode;
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FShadowstepCameraBlendSettings {
+struct FShadowstepCameraBlendSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -18,6 +18,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float BlendOutTriggerTime;
     
-    FShadowstepCameraBlendSettings();
+    DAWNWALKER_API FShadowstepCameraBlendSettings();
 };
 

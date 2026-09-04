@@ -49,9 +49,6 @@ public:
     UFUNCTION(BlueprintCallable, BlueprintPure)
     static FVector2D ProjectCircular2DInputToSquareGate(const FVector2D& Input);
     
-    UFUNCTION(BlueprintCallable)
-    static void LoadAkEventData(UAkAudioEvent* Event);
-    
     UFUNCTION(BlueprintCallable, BlueprintPure)
     static float K2_GetDistanceToNavMeshTileEdge(const FVector& InWorldCoordinate);
     

@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "Engine/DataTable.h"
@@ -8,7 +8,7 @@ class UPaperSprite;
 class UTexture2D;
 
 USTRUCT(BlueprintType)
-struct DOGWOODUI_API FCombatEnemyLevelDifferenceTabRow : public FTableRowBase {
+struct FCombatEnemyLevelDifferenceTabRow : public FTableRowBase {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -29,6 +29,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FLinearColor Color;
     
-    FCombatEnemyLevelDifferenceTabRow();
+    DOGWOODUI_API FCombatEnemyLevelDifferenceTabRow();
 };
 

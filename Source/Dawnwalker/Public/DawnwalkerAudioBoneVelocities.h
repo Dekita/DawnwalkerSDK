@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "UObject/NoExportTypes.h"
 #include "DawnwalkerAudioBoneVelocities.generated.h"
 
 UINTERFACE(Blueprintable)
-class DAWNWALKER_API UDawnwalkerAudioBoneVelocities : public UInterface {
+class UDawnwalkerAudioBoneVelocities : public UInterface {
     GENERATED_BODY()
 };
 

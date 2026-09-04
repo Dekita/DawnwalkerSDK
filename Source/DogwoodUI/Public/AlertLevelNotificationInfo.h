@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "AlertLevelChangeInfo.h"
 #include "NotificationInfo.h"
 #include "AlertLevelNotificationInfo.generated.h"
 
 UCLASS(Blueprintable)
-class DOGWOODUI_API UAlertLevelNotificationInfo : public UNotificationInfo {
+class UAlertLevelNotificationInfo : public UNotificationInfo {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

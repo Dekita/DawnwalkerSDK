@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "EFocusAbilityType.h"
 #include "ActiveGameplayEffectHandle.h"
@@ -7,7 +7,7 @@
 class UWoundType;
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FWound {
+struct FWound {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -30,6 +30,6 @@ private:
     int32 Handle;
     
 public:
-    FWound();
+    DAWNWALKER_API FWound();
 };
 

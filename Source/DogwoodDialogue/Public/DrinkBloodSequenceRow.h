@@ -20,12 +20,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FGameplayTag AudioMacroStateAfter;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TArray<TSoftObjectPtr<UAkStateValue>> AudioStatesSetOnStart;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TArray<TSoftObjectPtr<UAkStateValue>> AudioStatesSetOnFinish;
-    
     FDrinkBloodSequenceRow();
 };
 

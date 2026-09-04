@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "PlannedAction.generated.h"
 
@@ -6,7 +6,7 @@ class AActor;
 class UFocusAbilityBase;
 
 USTRUCT(BlueprintType)
-struct DOGWOODCOMBAT_API FPlannedAction {
+struct FPlannedAction {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -15,6 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<AActor*> Targets;
     
-    FPlannedAction();
+    DOGWOODCOMBAT_API FPlannedAction();
 };
 

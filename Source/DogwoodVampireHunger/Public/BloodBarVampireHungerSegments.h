@@ -1,9 +1,9 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "BloodBarVampireHungerSegments.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODVAMPIREHUNGER_API FBloodBarVampireHungerSegments {
+struct FBloodBarVampireHungerSegments {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float HighHunger;
     
-    FBloodBarVampireHungerSegments();
+    DOGWOODVAMPIREHUNGER_API FBloodBarVampireHungerSegments();
 };
 

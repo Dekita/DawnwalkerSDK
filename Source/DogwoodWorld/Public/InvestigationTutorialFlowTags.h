@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "GameplayTagContainer.h"
 #include "InvestigationTutorialFlowTags.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODWORLD_API FInvestigationTutorialFlowTags {
+struct FInvestigationTutorialFlowTags {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -16,6 +16,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FGameplayTag InvestigationExitFact;
     
-    FInvestigationTutorialFlowTags();
+    DOGWOODWORLD_API FInvestigationTutorialFlowTags();
 };
 

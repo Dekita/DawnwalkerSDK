@@ -24,9 +24,6 @@ protected:
     bool IsPaused;
     
 private:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    UAkAudioEvent* CurrentAudioEvent;
-    
 public:
     UMusicPlayerWidget();
 

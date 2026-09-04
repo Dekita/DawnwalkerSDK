@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "DismembermentBox.h"
 #include "EWeaponAnimationType.h"
@@ -10,7 +10,7 @@ class UCombatAnimationConfig;
 class UCombatAnimations;
 
 USTRUCT(BlueprintType)
-struct DOGWOODCOMBAT_API FStunAttackData {
+struct FStunAttackData {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -31,6 +31,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FDismembermentBox DismembermentBox;
     
-    FStunAttackData();
+    DOGWOODCOMBAT_API FStunAttackData();
 };
 

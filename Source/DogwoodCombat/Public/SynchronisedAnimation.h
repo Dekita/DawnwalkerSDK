@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "SynchronisedAnimation.generated.h"
 
 class UAnimMontage;
 
 USTRUCT(BlueprintType)
-struct DOGWOODCOMBAT_API FSynchronisedAnimation {
+struct FSynchronisedAnimation {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -14,6 +14,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UAnimMontage* TargetMontage;
     
-    FSynchronisedAnimation();
+    DOGWOODCOMBAT_API FSynchronisedAnimation();
 };
 

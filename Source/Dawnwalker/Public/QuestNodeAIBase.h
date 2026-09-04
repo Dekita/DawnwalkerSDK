@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "QuestNode.h"
 #include "QuestNodeAIBase.generated.h"
@@ -6,7 +6,7 @@
 class UDataTable;
 
 UCLASS(Abstract, Blueprintable)
-class DAWNWALKER_API UQuestNodeAIBase : public UQuestNode {
+class UQuestNodeAIBase : public UQuestNode {
     GENERATED_BODY()
 public:
 protected:

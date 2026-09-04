@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "GameplayTagContainer.h"
 #include "Widgets/Layout/SScaleBox.h"
@@ -7,7 +7,7 @@
 class UMediaSource;
 
 USTRUCT(BlueprintType)
-struct DOGWOODUI_API FVideoPlaybackOptions {
+struct FVideoPlaybackOptions {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -25,6 +25,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bUnskippable;
     
-    FVideoPlaybackOptions();
+    DOGWOODUI_API FVideoPlaybackOptions();
 };
 

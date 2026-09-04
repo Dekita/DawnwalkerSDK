@@ -38,8 +38,6 @@ UDWCharacterClawRideComponent::UDWCharacterClawRideComponent(const FObjectInitia
     this->ClawRideLayers = NULL;
     this->Effect = NULL;
     this->SlideParticles = NULL;
-    this->StartRidingSoundEvent = NULL;
-    this->StopRidingSoundEvent = NULL;
     this->bShouldFallingFromLedgeStartClawRide = false;
     this->bShouldRide = false;
     this->bAntiGravPossible = false;

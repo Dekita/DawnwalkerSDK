@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "Engine/CurveTable.h"
 #include "CharacterMaterialParamConfig.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FCharacterMaterialParamConfig {
+struct FCharacterMaterialParamConfig {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -22,6 +22,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bClearOnDayTimeChanged;
     
-    FCharacterMaterialParamConfig();
+    DAWNWALKER_API FCharacterMaterialParamConfig();
 };
 

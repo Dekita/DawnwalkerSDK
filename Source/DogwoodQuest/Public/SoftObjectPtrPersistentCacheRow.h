@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "Engine/DataTable.h"
@@ -7,7 +7,7 @@
 class AActor;
 
 USTRUCT(BlueprintType)
-struct DOGWOODQUEST_API FSoftObjectPtrPersistentCacheRow : public FTableRowBase {
+struct FSoftObjectPtrPersistentCacheRow : public FTableRowBase {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -16,6 +16,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FGuid PersistentActorGuid;
     
-    FSoftObjectPtrPersistentCacheRow();
+    DOGWOODQUEST_API FSoftObjectPtrPersistentCacheRow();
 };
 

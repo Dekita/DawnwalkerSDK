@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "DataProviders/AIDataProvider.h"
 #include "EnvironmentQuery/EnvQueryTest.h"
@@ -6,7 +6,7 @@
 #include "DawnwalkerAIUEnvQueryTest_IsUnderRoof.generated.h"
 
 UCLASS(Blueprintable)
-class DAWNWALKER_API UDawnwalkerAIUEnvQueryTest_IsUnderRoof : public UEnvQueryTest {
+class UDawnwalkerAIUEnvQueryTest_IsUnderRoof : public UEnvQueryTest {
     GENERATED_BODY()
 public:
 protected:

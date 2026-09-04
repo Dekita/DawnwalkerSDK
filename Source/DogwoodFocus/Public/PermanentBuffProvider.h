@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "PermanentBuffProvider.generated.h"
@@ -6,7 +6,7 @@
 class UAbilitySystemComponent;
 
 UINTERFACE(BlueprintType, meta=(CannotImplementInterfaceInBlueprint))
-class DOGWOODFOCUS_API UPermanentBuffProvider : public UInterface {
+class UPermanentBuffProvider : public UInterface {
     GENERATED_BODY()
 };
 

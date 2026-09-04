@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "SyncMontageData.h"
 #include "PetMontageData.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FPetMontageData {
+struct FPetMontageData {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -25,6 +25,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FSyncMontageData Right;
     
-    FPetMontageData();
+    DAWNWALKER_API FPetMontageData();
 };
 

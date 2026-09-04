@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "EDawnwalkerTraversalStateVariable.h"
 #include "DawnwalkerTraversalThresholdCondition.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FDawnwalkerTraversalThresholdCondition {
+struct FDawnwalkerTraversalThresholdCondition {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -13,6 +13,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float ThresholdValue;
     
-    FDawnwalkerTraversalThresholdCondition();
+    DAWNWALKER_API FDawnwalkerTraversalThresholdCondition();
 };
 

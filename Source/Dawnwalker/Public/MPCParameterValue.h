@@ -1,9 +1,9 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "MPCParameterValue.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FMPCParameterValue {
+struct FMPCParameterValue {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float ParameterValue;
     
-    FMPCParameterValue();
+    DAWNWALKER_API FMPCParameterValue();
 };
 

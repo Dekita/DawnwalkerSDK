@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "EReadableCategory.h"
 #include "GlossaryReadableEntry.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODGLOSSARY_API FGlossaryReadableEntry {
+struct FGlossaryReadableEntry {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -13,6 +13,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     EReadableCategory EntryCategory;
     
-    FGlossaryReadableEntry();
+    DOGWOODGLOSSARY_API FGlossaryReadableEntry();
 };
 

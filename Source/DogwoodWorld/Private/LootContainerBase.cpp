@@ -7,7 +7,6 @@ ALootContainerBase::ALootContainerBase(const FObjectInitializer& ObjectInitializ
     this->InventoryComponent = NULL;
     this->bIsStealable = false;
     this->bAllowExtraPoliceSpawning = false;
-    this->AudioEventOnOpen = NULL;
     this->bLocked = false;
     this->UnlockItem = NULL;
     this->LoadedNecrospeakVFX = NULL;

@@ -2,7 +2,6 @@
 
 UAudioMusicSubsystem::UAudioMusicSubsystem() {
     this->MusicDataAsset = NULL;
-    this->InitializationEventCache = NULL;
 }
 
 bool UAudioMusicSubsystem::ShouldPostExplorationMacroState() const {
@@ -16,9 +15,6 @@ void UAudioMusicSubsystem::ReplaceExplicitMusicState(FGameplayTag MusicStateTag)
 }
 
 void UAudioMusicSubsystem::PushExplicitMusicState(FGameplayTag MusicState) {
-}
-
-void UAudioMusicSubsystem::PostMusicEvent(TSoftObjectPtr<UAkAudioEvent> Event, bool IsInitializationEvent) {
 }
 
 FGameplayTag UAudioMusicSubsystem::PopExplicitMusicState() {
@@ -40,10 +36,6 @@ bool UAudioMusicSubsystem::IsMainCharacterInMusicRelevantVolume(FGameplayTag Vol
     return false;
 }
 
-UAkStateValue* UAudioMusicSubsystem::GetMusicStateByCombatFaction(FGameplayTag FactionId, FGameplayTag NPCMusicOverride) {
-    return NULL;
-}
-
 FGameplayTag UAudioMusicSubsystem::GetMacroMusicState() const {
     return FGameplayTag{};
 }
@@ -54,5 +46,4 @@ bool UAudioMusicSubsystem::ContainsExplicitState(FGameplayTag MusicState) const 
 
 void UAudioMusicSubsystem::ClearVolumeStack() {
 }
-
 

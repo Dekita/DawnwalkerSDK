@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "EDayPhase.h"
 #include "QuestNode.h"
 #include "QuestNodeDayPhaseBase.generated.h"
 
 UCLASS(Abstract, Blueprintable)
-class DAWNWALKER_API UQuestNodeDayPhaseBase : public UQuestNode {
+class UQuestNodeDayPhaseBase : public UQuestNode {
     GENERATED_BODY()
 public:
 private:

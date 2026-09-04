@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "InputActions.generated.h"
 
 class UInputAction;
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FInputActions {
+struct FInputActions {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -47,6 +47,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UInputAction* DrinkBloodInputAction;
     
-    FInputActions();
+    DAWNWALKER_API FInputActions();
 };
 

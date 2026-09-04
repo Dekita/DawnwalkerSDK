@@ -5,7 +5,6 @@ UMusicPlayerWidget::UMusicPlayerWidget() {
     this->FadeDuration = 0.50f;
     this->PlayedEntry = -1;
     this->IsPaused = false;
-    this->CurrentAudioEvent = NULL;
 }
 
 void UMusicPlayerWidget::OnEntryClicked(int32 EntryIndex) {

@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "DawnwalkerBuffContainerProvider.generated.h"
@@ -6,7 +6,7 @@
 class UBuffContainerComponent;
 
 UINTERFACE(Blueprintable)
-class DAWNWALKER_API UDawnwalkerBuffContainerProvider : public UInterface {
+class UDawnwalkerBuffContainerProvider : public UInterface {
     GENERATED_BODY()
 };
 

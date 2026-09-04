@@ -1,9 +1,9 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "DirectionalGuardConfig.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODCOMBAT_API FDirectionalGuardConfig {
+struct FDirectionalGuardConfig {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float GuardChangeCooldownMax;
     
-    FDirectionalGuardConfig();
+    DOGWOODCOMBAT_API FDirectionalGuardConfig();
 };
 

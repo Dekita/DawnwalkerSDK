@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "Engine/DataTable.h"
 #include "GameplayTagContainer.h"
 #include "RegionData.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODSYSTEM_API FRegionData : public FTableRowBase {
+struct FRegionData : public FTableRowBase {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -32,6 +32,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 DiscoveryXp;
     
-    FRegionData();
+    DOGWOODSYSTEM_API FRegionData();
 };
 

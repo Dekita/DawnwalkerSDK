@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "OpenShopDialogueChoiceData.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODDIALOGUE_API FOpenShopDialogueChoiceData {
+struct FOpenShopDialogueChoiceData {
     GENERATED_BODY()
 public:
-    FOpenShopDialogueChoiceData();
+    DOGWOODDIALOGUE_API FOpenShopDialogueChoiceData();
 };
 

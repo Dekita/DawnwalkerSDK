@@ -23,15 +23,6 @@ public:
     
 private:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TMap<FSoftObjectPath, UAkAudioEvent*> EventsLoadedByPath;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TMap<FSoftObjectPath, UAkRtpc*> RtpcsLoadedByPath;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TMap<FSoftObjectPath, UAkSwitchValue*> SwitchesLoadedByPath;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UAudioCharacterAnimationNotifyDataAsset* CharacterAnimationNotifyDataAsset;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

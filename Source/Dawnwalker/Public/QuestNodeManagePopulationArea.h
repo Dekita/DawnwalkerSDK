@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "QuestNode.h"
 #include "QuestNodeManagePopulationArea.generated.h"
@@ -6,7 +6,7 @@
 class AActor;
 
 UCLASS(Blueprintable)
-class DAWNWALKER_API UQuestNodeManagePopulationArea : public UQuestNode {
+class UQuestNodeManagePopulationArea : public UQuestNode {
     GENERATED_BODY()
 public:
 private:

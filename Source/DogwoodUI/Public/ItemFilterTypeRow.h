@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "EEquipmentSlotType.h"
 #include "EItemType.h"
@@ -8,7 +8,7 @@
 class UPaperSprite;
 
 USTRUCT(BlueprintType)
-struct DOGWOODUI_API FItemFilterTypeRow : public FTableRowBase {
+struct FItemFilterTypeRow : public FTableRowBase {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -23,6 +23,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSet<EEquipmentSlotType> FilteredEquipmentSlotTypes;
     
-    FItemFilterTypeRow();
+    DOGWOODUI_API FItemFilterTypeRow();
 };
 

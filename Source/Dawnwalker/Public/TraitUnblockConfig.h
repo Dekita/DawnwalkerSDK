@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "ETraitUnblockType.h"
 #include "TraitUnblockConfig.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FTraitUnblockConfig {
+struct FTraitUnblockConfig {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -13,6 +13,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 Value;
     
-    FTraitUnblockConfig();
+    DAWNWALKER_API FTraitUnblockConfig();
 };
 

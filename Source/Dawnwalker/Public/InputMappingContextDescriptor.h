@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "InputMappingContextDescriptor.generated.h"
 
 class UInputMappingContext;
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FInputMappingContextDescriptor {
+struct FInputMappingContextDescriptor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -14,6 +14,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 Priority;
     
-    FInputMappingContextDescriptor();
+    DAWNWALKER_API FInputMappingContextDescriptor();
 };
 

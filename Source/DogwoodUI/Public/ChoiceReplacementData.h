@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "EReplacementMode.h"
@@ -7,7 +7,7 @@
 class UVampireUrgeEffectDataAsset;
 
 USTRUCT(BlueprintType)
-struct DOGWOODUI_API FChoiceReplacementData {
+struct FChoiceReplacementData {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -31,6 +31,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bIsCurrentlyReplaced;
     
-    FChoiceReplacementData();
+    DOGWOODUI_API FChoiceReplacementData();
 };
 

@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "ActorReference.h"
 #include "InteractionMontageParams.generated.h"
@@ -6,7 +6,7 @@
 class UAnimMontage;
 
 USTRUCT(BlueprintType)
-struct DOGWOODWORLD_API FInteractionMontageParams {
+struct FInteractionMontageParams {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -45,6 +45,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float BlendOutTimeWhenStopping;
     
-    FInteractionMontageParams();
+    DOGWOODWORLD_API FInteractionMontageParams();
 };
 

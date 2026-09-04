@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "Camera/PlayerCameraManager.h"
 #include "ECameraPopPolicy.h"
@@ -10,7 +10,7 @@ class IDialogueCameraInterface;
 class UDialogueCameraInterface;
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FCameraSpecDef {
+struct FCameraSpecDef {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -25,6 +25,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSubclassOf<ACinematicCameraActor> GameplayCameraClass;
     
-    FCameraSpecDef();
+    DAWNWALKER_API FCameraSpecDef();
 };
 

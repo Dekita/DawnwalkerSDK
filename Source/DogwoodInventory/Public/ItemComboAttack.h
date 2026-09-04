@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "GameplayTagContainer.h"
 #include "GameplayTagContainer.h"
 #include "ItemComboAttack.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODINVENTORY_API FItemComboAttack {
+struct FItemComboAttack {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -14,6 +14,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FGameplayTagContainer AttackTags;
     
-    FItemComboAttack();
+    DOGWOODINVENTORY_API FItemComboAttack();
 };
 

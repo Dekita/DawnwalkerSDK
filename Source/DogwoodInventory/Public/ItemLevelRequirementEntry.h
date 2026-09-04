@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "ItemLevelRequirementEntry.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODINVENTORY_API FItemLevelRequirementEntry {
+struct FItemLevelRequirementEntry {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -13,6 +13,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 SpreadValue;
     
-    FItemLevelRequirementEntry();
+    DOGWOODINVENTORY_API FItemLevelRequirementEntry();
 };
 

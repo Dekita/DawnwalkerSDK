@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "GameplayTagContainer.h"
 #include "WeaponToWeaponKey.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FWeaponToWeaponKey {
+struct FWeaponToWeaponKey {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -13,7 +13,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FGameplayTag DefenderWeapon;
     
-    FWeaponToWeaponKey();
+    DAWNWALKER_API FWeaponToWeaponKey();
 };
 FORCEINLINE uint32 GetTypeHash(const FWeaponToWeaponKey) { return 0; }
 

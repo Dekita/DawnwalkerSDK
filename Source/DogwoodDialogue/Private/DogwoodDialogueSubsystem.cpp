@@ -1,10 +1,6 @@
 #include "DogwoodDialogueSubsystem.h"
 
 UDogwoodDialogueSubsystem::UDogwoodDialogueSubsystem() {
-    this->CachedVampireHungerFearIntensityRtpc = NULL;
-    this->CachedVampireHungerFearIntensityBuildupEvent = NULL;
-    this->CachedVampireHungerFearIntensityBuildupStopEvent = NULL;
-    this->CachedVampireHungerDrainNPCEvent = NULL;
     this->CachedVampireHungerEffectIntensityCurve = NULL;
 }
 

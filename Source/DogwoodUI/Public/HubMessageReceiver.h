@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "HubMessageReceiver.generated.h"
@@ -6,7 +6,7 @@
 class UHubMessage;
 
 UINTERFACE(Blueprintable)
-class DOGWOODUI_API UHubMessageReceiver : public UInterface {
+class UHubMessageReceiver : public UInterface {
     GENERATED_BODY()
 };
 

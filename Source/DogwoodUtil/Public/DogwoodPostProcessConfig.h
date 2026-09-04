@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
 #include "Engine/Scene.h"
@@ -7,7 +7,7 @@
 class UMaterialParameterCollection;
 
 UCLASS(Blueprintable)
-class DOGWOODUTIL_API UDogwoodPostProcessConfig : public UDataAsset {
+class UDogwoodPostProcessConfig : public UDataAsset {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "CinematicCameraActor.h"
 #include "DialogueCameraInterface.h"
@@ -7,7 +7,7 @@
 class UDialogueCameraComponent;
 
 UCLASS(Blueprintable)
-class DAWNWALKER_API ADialogueCameraActor : public ACinematicCameraActor, public IDialogueCameraInterface {
+class ADialogueCameraActor : public ACinematicCameraActor, public IDialogueCameraInterface {
     GENERATED_BODY()
 public:
 protected:

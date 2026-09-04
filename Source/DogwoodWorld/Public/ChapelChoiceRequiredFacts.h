@@ -1,15 +1,15 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "FactTemplate.h"
 #include "ChapelChoiceRequiredFacts.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODWORLD_API FChapelChoiceRequiredFacts {
+struct FChapelChoiceRequiredFacts {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<FFactTemplate> Facts;
     
-    FChapelChoiceRequiredFacts();
+    DOGWOODWORLD_API FChapelChoiceRequiredFacts();
 };
 

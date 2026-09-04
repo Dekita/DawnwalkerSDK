@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "LootPanelSettings.h"
@@ -6,8 +6,8 @@
 
 class UInventoryComponent;
 
-UINTERFACE(Blueprintable)
-class DOGWOODWORLD_API ULootPanelInterface : public UInterface {
+UINTERFACE(Blueprintable, MinimalAPI)
+class ULootPanelInterface : public UInterface {
     GENERATED_BODY()
 };
 

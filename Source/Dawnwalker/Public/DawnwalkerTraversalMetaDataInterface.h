@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "DawnwalkerTraversalMetaDataInterface.generated.h"
 
 UINTERFACE()
-class DAWNWALKER_API UDawnwalkerTraversalMetaDataInterface : public UInterface {
+class UDawnwalkerTraversalMetaDataInterface : public UInterface {
     GENERATED_BODY()
 };
 

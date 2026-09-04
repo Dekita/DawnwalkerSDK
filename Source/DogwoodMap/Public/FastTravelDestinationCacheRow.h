@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
@@ -7,7 +7,7 @@
 #include "FastTravelDestinationCacheRow.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODMAP_API FFastTravelDestinationCacheRow : public FTableRowBase {
+struct FFastTravelDestinationCacheRow : public FTableRowBase {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -19,6 +19,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FRotator DestinationRotation;
     
-    FFastTravelDestinationCacheRow();
+    DOGWOODMAP_API FFastTravelDestinationCacheRow();
 };
 

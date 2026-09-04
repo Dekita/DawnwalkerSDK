@@ -24,9 +24,6 @@ FVector2D UDogwoodBlueprintFunctionLibrary::ProjectCircular2DInputToSquareGate(c
     return FVector2D{};
 }
 
-void UDogwoodBlueprintFunctionLibrary::LoadAkEventData(UAkAudioEvent* Event) {
-}
-
 float UDogwoodBlueprintFunctionLibrary::K2_GetDistanceToNavMeshTileEdge(const FVector& InWorldCoordinate) {
     return 0.0f;
 }
@@ -105,5 +102,4 @@ bool UDogwoodBlueprintFunctionLibrary::CanFindTeleportSpot(const UObject* WorldC
 FDWActorsBindingData UDogwoodBlueprintFunctionLibrary::BindSequenceActorsByTag(ALevelSequenceActor* InLevelSequenceActor, const FStoreStateParams& Params) {
     return FDWActorsBindingData{};
 }
-
 

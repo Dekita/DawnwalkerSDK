@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "EdictTriggerReceiver.generated.h"
 
 UINTERFACE(Blueprintable)
-class DOGWOODQUEST_API UEdictTriggerReceiver : public UInterface {
+class UEdictTriggerReceiver : public UInterface {
     GENERATED_BODY()
 };
 

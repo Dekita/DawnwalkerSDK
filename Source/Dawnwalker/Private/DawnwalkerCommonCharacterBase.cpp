@@ -146,14 +146,6 @@ FVector ADawnwalkerCommonCharacterBase::GetCharacterSocketLocation(const FGamepl
     return FVector{};
 }
 
-URWAudioComponent* ADawnwalkerCommonCharacterBase::GetAudioRootAkComponent() const {
-    return NULL;
-}
-
-URWAudioComponent* ADawnwalkerCommonCharacterBase::GetAudioHeadAkComponent() const {
-    return NULL;
-}
-
 UAudioCharacterCommonBaseComponent* ADawnwalkerCommonCharacterBase::GetAudioCharacterCommonBaseComponent() const {
     return NULL;
 }
@@ -168,5 +160,4 @@ void ADawnwalkerCommonCharacterBase::ClearFocusedSocketTag() {
 int32 ADawnwalkerCommonCharacterBase::AddLookAtTarget(const FInstancedStruct& LookAtTargetData) {
     return 0;
 }
-
 

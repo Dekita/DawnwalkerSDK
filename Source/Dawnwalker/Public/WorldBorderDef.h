@@ -1,11 +1,11 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "ActorReference.h"
 #include "EWorldBorderAction.h"
 #include "WorldBorderDef.generated.h"
 
 USTRUCT(BlueprintType)
-struct DAWNWALKER_API FWorldBorderDef {
+struct FWorldBorderDef {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -26,6 +26,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FActorReference TeleportTargetActorRef;
     
-    FWorldBorderDef();
+    DAWNWALKER_API FWorldBorderDef();
 };
 

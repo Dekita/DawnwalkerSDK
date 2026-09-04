@@ -7,7 +7,6 @@ public class DogwoodUtil : ModuleRules {
         ShadowVariableWarningLevel = WarningLevel.Warning;
         
         PublicDependencyModuleNames.AddRange(new string[] {
-            "AkAudio",
             "Core",
             "CoreUObject",
             "DeveloperSettings",

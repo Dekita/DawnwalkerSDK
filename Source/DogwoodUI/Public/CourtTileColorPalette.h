@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "CourtTileColorPalette.generated.h"
 
 USTRUCT(BlueprintType)
-struct DOGWOODUI_API FCourtTileColorPalette {
+struct FCourtTileColorPalette {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -13,6 +13,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FLinearColor SecondaryColor;
     
-    FCourtTileColorPalette();
+    DOGWOODUI_API FCourtTileColorPalette();
 };
 
